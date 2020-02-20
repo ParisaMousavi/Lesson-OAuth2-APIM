@@ -1,0 +1,29 @@
+
+@apiProxyClientId=29f8e764-f7dd-433d-a655-0dfc70dcc268
+@apiproxySecret=9827XemCFZGlxn.DlMo-YZ=AVzyGmXe?
+@apiClientClientId=5bdabaca-519e-43dd-9822-c84d1fc3f703
+@apiClientSecret=:1zq.q-]cBZ5ol34:.Mo:5BE8wrOz/.7
+@tenandId=a9ebb648-f810-44f9-81f5-a84d59d6bf04
+
+GET https://myapim.azure-api.net/oauth/test
+Ocp-Apim-Subscription-Key: ••••••••••••••••••••••••••••••••
+Ocp-Apim-Trace: true
+
+
+### Get the apiClient token using the v2 endpoint. It requires to Set the Application Id URI
+POST https://login.microsoftonline.com/{{tenandId}}/oauth2/v2.0/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{apiClientClientId}}
+&client_secret={{apiClientSecret}}
+&scope=api://{{apiProxyClientId}}/.default
+&grant_type=client_credentials
+
+### Get the apiClient token using the v1 endpoint.
+POST https://login.microsoftonline.com/{{tenandId}}/oauth2/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{apiClientClientId}}
+&client_secret={{apiClientSecret}}
+&grant_type=client_credentials
+&resource={{apiProxyClientId}}
