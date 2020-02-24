@@ -60,7 +60,8 @@ $managedStorageAccount= @{
     RegenerationPeriod= [System.TimeSpan]::FromDays(90)
 }
 
-Add-AzKeyVaultManagedStorageAccount -VaultName $keyVault.VaultName
+Add-AzKeyVaultManagedStorageAccount -VaultName $keyVault.VaultName 
 
+Update-AzKeyVaultManagedStorageAccountKey -VaultName $keyVault.VaultName -AccountName $stora.StorageAccountName -ActiveKeyName "key1"
 
 
