@@ -24,7 +24,7 @@ function Create2001ResourceGroups(){
 
 
 function Remove2001ResourceGroups(){
-	for($i=1; $i -lt 980; $i++)
+	for($i=650; $i -lt 980; $i++)
 	{
 		$resourceGroupName="testlimitation"+$i
 		write-host $resourceGroupName
