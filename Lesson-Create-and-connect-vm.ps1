@@ -18,3 +18,4 @@ New-AzVm `
     -ResourceGroupName "myResourceGroupVM"  | Select IpAddress
 
     mstsc /v:<publicIpAddress>
+    
