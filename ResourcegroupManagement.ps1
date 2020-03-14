@@ -31,4 +31,5 @@ function Remove2001ResourceGroups(){
 		Remove-AzResourceGroup -Name $resourceGroupName -Force
 	}
 }
+Remove2001ResourceGroups
 

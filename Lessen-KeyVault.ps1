@@ -1,5 +1,4 @@
-connect-azAccount
-Get-AzSubscription -SubscriptionName "" | Select-AzSubscription
+
 
 
 $perfix="cmk"

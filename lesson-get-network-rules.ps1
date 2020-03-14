@@ -3,4 +3,3 @@ Install-Module -Name Az -AllowClobber -Scope CurrentUser
 
 connect-azaccount
 
-get-azresourcegroup 
