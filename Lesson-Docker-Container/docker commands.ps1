@@ -26,11 +26,16 @@ docker image ls
 docker login
 
 
-# remove a docker image
+# remove a docker image with repository name and tag
 docker image rm web1:1.0
+
+# remove a docker image with image Id <only the first four character of the ID>
+docker image rm -f 0c21
 
 # tag the docker image. Tag format must be [username/repository:tag]
 docker image tag web1 parisadocker/web1
 
 # push the taged image [username/repository:tag]
 docker image push parisadocker/web1:latest
+
+docker pull parisadocker/web1:latest
