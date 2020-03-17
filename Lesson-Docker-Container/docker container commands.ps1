@@ -10,5 +10,5 @@ docker container  ls -a
 # --rm means remove the container automatically after it's stopped
 docker container run -it --rm -p 5000:5000 -e FLASK_APP=app.py web1
 
-# remove container 
-docker container rm <first four character of the container id>
+# remove container with <first four character of the container id>
+docker container rm 0000
