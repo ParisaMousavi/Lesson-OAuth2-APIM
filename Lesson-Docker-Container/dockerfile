@@ -1,4 +1,4 @@
- FROM python:2.7-alpine
+ FROM python:2.7-slim
 
  RUN mkdir /app
  WORKDIR /app
@@ -8,9 +8,10 @@
 
  COPY . .
 
- LABEL maintainer="Parisa Moosavinezhad <parisamoosavinezhad@yahoo.com>"
+ LABEL maintainer="Parisa Moosavinezhad <parisamoosavinezhad@yahoo.com>" \
+ version="1.0"
 
- #CMD Flask run --host=0.0.0.0 --port=5000
+ #CMD Flask run --host=0.0.0.0 --port=80
 
  # Make port 80 available to the world outside this container
  #EXPOSE 80
