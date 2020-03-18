@@ -28,3 +28,8 @@ docker container stats
 docker container rm contaier-name
 
 docker container stop contaier-name
+
+docker container stop aaa bbb ccc
+
+docker container stop $(docker container ls -a -q)
+
