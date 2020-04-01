@@ -1,11 +1,14 @@
+
+$ResourceGroupName="test"
+
 New-AzResourceGroup `
-   -ResourceGroupName "myResourceGroupVM" `
+   -ResourceGroupName $ResourceGroupName `
    -Location "EastUS"
 
 $cred = Get-Credential
 
 New-AzVm `
-    -ResourceGroupName "myResourceGroupVM" `
+    -ResourceGroupName $ResourceGroupName `
     -Name "myVM" `
     -Location "EastUS" `
     -VirtualNetworkName "myVnet" `
@@ -15,7 +18,7 @@ New-AzVm `
     -Credential $cred
 
     Get-AzPublicIpAddress `
-    -ResourceGroupName "myResourceGroupVM"  | Select IpAddress
+    -ResourceGroupName $ResourceGroupName  | Select IpAddress
 
     mstsc /v:<publicIpAddress>
     

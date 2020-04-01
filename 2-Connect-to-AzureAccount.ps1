@@ -1,3 +1,3 @@
 connect-azAccount
 
-Get-AzSubscription -SubscriptionName "" | Select-AzSubscription
+Get-AzSubscription -SubscriptionName "Visual Studio Enterprise – MPN" | Select-AzSubscription
