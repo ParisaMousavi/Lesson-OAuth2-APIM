@@ -9,3 +9,6 @@ az container show --resource-group DiFuture --name mycontainer --query "{FQDN:ip
 az group list
 
 az container logs --resource-group DiFuture --name mycontainer
+# aci-demo-parisa.westeurope.azurecontainer.io
+
+docker login containerpreview.azurecr.io -u <username> -p <password>
