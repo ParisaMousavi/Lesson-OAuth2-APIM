@@ -12,3 +12,8 @@ az container logs --resource-group DiFuture --name mycontainer
 # aci-demo-parisa.westeurope.azurecontainer.io
 
 docker login containerpreview.azurecr.io -u <username> -p <password>
+
+
+
+Reference:
+Use Docker Compose to deploy multiple containers (https://docs.microsoft.com/en-us/azure/cognitive-services/containers/docker-compose-recipe)
