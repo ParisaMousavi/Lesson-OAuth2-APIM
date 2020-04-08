@@ -1,0 +1,19 @@
+az login
+
+az group create --name DiFuture --location eastus
+
+az acr create --resource-group "DiFuture" --name "ParisaACRDemo" --sku Basic
+
+# Log in to container registry
+az acr login --name "ParisaACRDemo"
+
+# Tag container image
+az acr show --name "ParisaACRDemo" --query loginServer --output table
+
+
+
+
+
+References:
+Tutorial: Create an Azure container registry and push a container image
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-acr
