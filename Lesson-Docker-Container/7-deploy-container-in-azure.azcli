@@ -2,7 +2,10 @@ az login
 
 az group create --name myResourceGroup --location eastus
 
-az container create --resource-group myResourceGroup --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --dns-name-label aci-demo --ports 80
+az container create --resource-group DiFuture --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --dns-name-label aci-demo-parisa --ports 80
 
-az container show --resource-group myResourceGroup --name mycontainer --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" --out table
+az container show --resource-group DiFuture --name mycontainer --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" --out table
 
+az group list
+
+az container logs --resource-group DiFuture --name mycontainer
