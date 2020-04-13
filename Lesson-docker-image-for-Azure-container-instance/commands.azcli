@@ -23,7 +23,7 @@ docker rmi <acrLoginServer>/hello-world:v1
 # Run image from registry
 docker run <acrLoginServer>/hello-world:v1
 
-# Tag container image
+# Tag container image and List container images
 az acr show --name "ParisaACRDemo" --query loginServer --output table
 
 References:
