@@ -2,6 +2,11 @@ az login
 
 az group list 
 
+ACR_NAME="parisaacrdemo"
+
+My_RG="lesson-docker"
+My_ACR="parisaacrdeemo"
+
 az group create --name "lesson-docker" --location eastus
 
 az acr create --resource-group "lesson-docker" --name "parisaacrdeemo" --sku Basic
@@ -26,7 +31,7 @@ docker rmi parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 docker run parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 
 # Tag container image and List container images
-az acr show --name "parisaacrdeemo" --query loginServer --output table
+az acr show --name parisaacrdeemo --query loginServer --output table
 
 References:
 Tutorial: Create an Azure container registry and push a container image
