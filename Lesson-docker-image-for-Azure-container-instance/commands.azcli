@@ -1,30 +1,32 @@
 az login
 
-az group create --name DiFuture --location eastus
+az group list 
 
-az acr create --resource-group "DiFuture" --name "ParisaACRDemo" --sku Basic
+az group create --name "lesson-docker" --location eastus
+
+az acr create --resource-group "lesson-docker" --name "parisaacrdeemo" --sku Basic
 
 # Log in to container registry
-az acr login --name "ParisaACRDemo"
+az acr login --name "parisaacrdeemo"
 
 # Before you can push an image to your registry, 
 # you must tag it with the fully qualified name of your ACR login server
 # The login server name is in the format <registry-name>.azurecr.io 
 # (all lowercase), 
 # for example, mycontainerregistry007.azurecr.io.
-docker tag hello-world <acrLoginServer>/hello-world:v1
+docker tag mcr.microsoft.com/azuredocs/go parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 
 # to push the image to the ACR instance
 # Replace <acrLoginServer> with the login server name of your ACR instance. 
-docker push <acrLoginServer>/hello-world:v1
+docker push parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 
-docker rmi <acrLoginServer>/hello-world:v1
+docker rmi parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 
 # Run image from registry
-docker run <acrLoginServer>/hello-world:v1
+docker run parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
 
 # Tag container image and List container images
-az acr show --name "ParisaACRDemo" --query loginServer --output table
+az acr show --name "parisaacrdeemo" --query loginServer --output table
 
 References:
 Tutorial: Create an Azure container registry and push a container image
