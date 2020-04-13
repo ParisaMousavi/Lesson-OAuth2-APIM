@@ -1,0 +1,19 @@
+az login
+
+az group create --name myResourceGroup --location eastus
+
+az container create --resource-group DiFuture --name mycontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --dns-name-label aci-demo-parisa --ports 80
+
+az container show --resource-group DiFuture --name mycontainer --query "{FQDN:ipAddress.fqdn,ProvisioningState:provisioningState}" --out table
+
+az group list
+
+az container logs --resource-group DiFuture --name mycontainer
+# aci-demo-parisa.westeurope.azurecontainer.io
+
+docker login containerpreview.azurecr.io -u <username> -p <password>
+
+
+
+Reference:
+Use Docker Compose to deploy multiple containers (https://docs.microsoft.com/en-us/azure/cognitive-services/containers/docker-compose-recipe)
