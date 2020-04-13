@@ -19,13 +19,17 @@ az acr login --name "parisaacrdeemo"
 # The login server name is in the format <registry-name>.azurecr.io 
 # (all lowercase), 
 # for example, mycontainerregistry007.azurecr.io.
-docker tag mcr.microsoft.com/azuredocs/go parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
+docker pull mcr.microsoft.com/azuredocs/go
+
+parisaacrdeemo.azurecr.io
+
+docker tag mcr.microsoft.com/azuredocs/go parisaacrdeemo.azurecr.io/mcr.microsoft.com/azuredocs/go:v1
 
 # to push the image to the ACR instance
 # Replace <acrLoginServer> with the login server name of your ACR instance. 
-docker push parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
+docker push parisaacrdeemo.azurecr.io/mcr.microsoft.com/azuredocs/go:v1
 
-docker rmi parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
+docker rmi parisaacrdeemo.azurecr.io/mcr.microsoft.com/azuredocs/go:v1
 
 # Run image from registry
 docker run parisaacrdeemo/mcr.microsoft.com/azuredocs/go:v1
