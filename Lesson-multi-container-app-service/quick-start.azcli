@@ -1,0 +1,28 @@
+mkdir quickstart
+
+
+
+cd $HOME/quickstart
+
+git clone https://github.com/Azure-Samples/multicontainerwordpress
+
+cd multicontainerwordpress
+
+az login
+
+# Create an Azure App Service plan
+az group create --name myResourceGroup --location "South Central US"
+
+az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --sku S1 --is-linux
+
+# Create a Docker Compose app
+az webapp create --resource-group myResourceGroup --plan myAppServicePlan --name parisawordpress --multicontainer-config-type compose --multicontainer-config-file compose-wordpress.yml
+
+# http://<app_name>.azurewebsites.net
+# http://parisawordpress.azurewebsites.net
+
+
+# References
+https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-multi-container
+
+
