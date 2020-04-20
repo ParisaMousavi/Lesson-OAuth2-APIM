@@ -33,4 +33,8 @@ k6 run -o cloud k6-script.js
 https://k6.io/docs/getting-started/running-k6
 
 # use this command to run the load test an obtain the result in cloud
-k6 run --vus 10 --iteration 1000 --duration 30s script.js
+k6 run --vus 10 --iterations 10 --duration 300s k6-script.js
+
+
+
+
