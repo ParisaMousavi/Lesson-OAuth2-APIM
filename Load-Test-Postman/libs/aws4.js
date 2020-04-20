@@ -15142,7 +15142,7 @@ module.exports={
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.2.tgz",
   "_shasum": "05c5678d7173c049d8ca433552224a495d0e3762",
   "_spec": "elliptic@^6.0.0",
-  "_where": "C:\\Users\\P.Moosavinezhad\\AppData\\Roaming\\npm\\node_modules\\postman-to-k6\\node_modules\\browserify-sign",
+  "_where": "/home/vsonline/.npm-global/lib/node_modules/postman-to-k6/node_modules/browserify-sign",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"

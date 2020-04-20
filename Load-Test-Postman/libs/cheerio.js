@@ -4113,7 +4113,7 @@ module.exports={
   "_resolved": "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.3.tgz",
   "_shasum": "094636d425b2e9c0f4eb91a46c05630c9a1a8bf6",
   "_spec": "cheerio@^1.0.0-rc.2",
-  "_where": "C:\\Users\\P.Moosavinezhad\\AppData\\Roaming\\npm\\node_modules\\postman-to-k6",
+  "_where": "/home/vsonline/.npm-global/lib/node_modules/postman-to-k6",
   "author": {
     "name": "Matt Mueller",
     "email": "mattmuelle@gmail.com",
