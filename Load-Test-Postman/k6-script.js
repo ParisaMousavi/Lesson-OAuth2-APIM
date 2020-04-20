@@ -2,7 +2,7 @@
 
 import "./libs/shim/core.js";
 
-export let options = { maxRedirects: 4, iterations: "1" };
+export let options = { maxRedirects: 4 };
 
 const Request = Symbol.for("request");
 postman[Symbol.for("initial")]({
@@ -12,7 +12,7 @@ postman[Symbol.for("initial")]({
 export default function() {
   postman[Request]({
     name: "getOrCreatePseudonymForList",
-    id: "926ec0c8-69f4-404c-91c6-69d2551e0ff8",
+    id: "320fe4c8-7960-4b79-a211-0ead25e743c1",
     method: "POST",
     address: "http://localhost:8080/gpas/gpasService",
     data:
