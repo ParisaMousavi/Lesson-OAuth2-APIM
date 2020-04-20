@@ -2,7 +2,7 @@
 
 import "./libs/shim/core.js";
 
-export let options = { maxRedirects: 4, iterations: "1000" };
+export let options = { maxRedirects: 4, iterations: "1" };
 
 const Request = Symbol.for("request");
 postman[Symbol.for("initial")]({
