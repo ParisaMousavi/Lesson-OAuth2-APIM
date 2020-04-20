@@ -11,3 +11,6 @@ chmod +x install.sh
 
 # load test with postman and K6
 https://k6.io/blog/load-testing-with-postman-collections
+
+
+postman-to-k6 gPAS.postman_collection.json -i 1000 -o k6-script.js
