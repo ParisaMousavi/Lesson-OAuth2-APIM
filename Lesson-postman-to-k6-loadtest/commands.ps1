@@ -26,4 +26,11 @@ k6 run k6-script.js
 k6 login cloud -t c5bb7c983c28f54efb6f4fc6d17b806ef4eb5290760ff9806b2286b8a33e9248
 
 k6 run k6-script.js
+
 k6 run -o cloud k6-script.js
+
+# as reference
+https://k6.io/docs/getting-started/running-k6
+
+# use this command to run the load test an obtain the result in cloud
+k6 run --vus 10 --iteration 1000 --duration 30s script.js
