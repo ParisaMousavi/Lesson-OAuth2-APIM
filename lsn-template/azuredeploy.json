@@ -9,60 +9,14 @@
     },
     "resources": [
         {
-            "name": "string",
-            "type": "Microsoft.ApiManagement/service/apis",
+            "type": "Microsoft.ApiManagement/service/api-version-sets",
+            "name":"my-api-versionset",
             "apiVersion": "2019-12-01",
-            "properties": {
-                "description": "string",
-                "authenticationSettings": {
-                    "oAuth2": {
-                        "authorizationServerId": "string",
-                        "scope": "string"
-                    },
-                    "openid": {
-                        "openidProviderId": "string",
-                        "bearerTokenSendingMethods": [
-                            "string"
-                        ]
-                    }
-                },
-                "subscriptionKeyParameterNames": {
-                    "header": "string",
-                    "query": "string"
-                },
-                "type": "string",
-                "apiRevision": "string",
-                "apiVersion": "string",
-                "isCurrent": "boolean",
-                "apiRevisionDescription": "string",
-                "apiVersionDescription": "string",
-                "apiVersionSetId": "string",
-                "subscriptionRequired": "boolean",
-                "sourceApiId": "string",
-                "displayName": "string",
-                "serviceUrl": "string",
-                "path": "string",
-                "protocols": [
-                    "string"
-                ],
-                "apiVersionSet": {
-                    "id": "string",
-                    "name": "string",
-                    "description": "string",
-                    "versioningScheme": "string",
-                    "versionQueryName": "string",
-                    "versionHeaderName": "string"
-                },
-                "value": "string",
-                "format": "string",
-                "wsdlSelector": {
-                    "wsdlServiceName": "string",
-                    "wsdlEndpointName": "string"
-                },
-                "apiType": "string"
-            },
-            "resources": [
-            ]
+            "properties":{
+                "displayname":"",
+                "description":"",
+                "versioningSchema": ""
+            }
         }
     ],
     "outputs": {
