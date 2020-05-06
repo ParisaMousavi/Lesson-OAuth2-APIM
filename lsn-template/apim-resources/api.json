@@ -1,0 +1,64 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ApimServiceName": {
+            "type": "string"
+        }
+    },
+    "variables": {
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('ApimServiceName'),'/','apiversionset',copyIndex())]",
+            "type": "Microsoft.ApiManagement/service/apiVersionSets",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('apiversionset',copyIndex())]",
+                "description": "[concat('apiversionset',copyIndex())]",
+                "versioningScheme": "Segment"
+            },
+            "copy": {
+                "name": "apiVersionSetsLoop",
+                "count": 200
+            }
+        },
+        {
+            "name": "[concat(parameters('ApimServiceName'),'/','vs',copyIndex(),'api1')]",
+            "type": "Microsoft.ApiManagement/service/apis",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('vs',copyIndex(),'api1')]",
+                "description": "[concat('vs',copyIndex(),'api1')]",
+                "type": "http",
+                "apiVersion": "v1",
+                "apiVersionSetId": "[concat('/apiVersionSets/', 'apiversionset',copyIndex())]",
+                "path": "[concat('project',copyIndex(),'vs',copyIndex(),'/api1/v1')]",
+                "protocols": [
+                    "https"
+                ]
+            },
+            "dependsOn": [
+                "apiVersionSetsLoop"
+            ],
+            "copy": {
+                "name": "apisLoop",
+                "count": 200
+            }
+        },
+        {
+            "name": "[concat(parameters('ApimServiceName'), '/','product', copyIndex(), '/','vs',copyIndex(), 'api1')]",
+            "type": "Microsoft.ApiManagement/service/products/apis",
+            "apiVersion": "2019-01-01",
+            "properties": {
+            },
+            "dependsOn": [
+                "apisLoop"
+            ],
+            "copy": {
+                "name": "productApisLoop",
+                "count": 200
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ApimServiceName": {
+            "type": "string"
+        }
+    },
+    "variables": {
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('ApimServiceName'), '/','product', copyIndex())]",
+            "type": "Microsoft.ApiManagement/service/products",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('product', copyIndex())]",
+                "description": "[concat('product', copyIndex())]",
+                "subscriptionRequired": "true",
+                "approvalRequired": "true",
+                "subscriptionsLimit": "1",
+                "state": "notPublished"
+            },
+            "copy": {
+                "name": "productsLoop",
+                "count": 200
+            }
+        },
+        {
+            "name": "[concat(deployment().name, '-apis')]",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2019-08-01",
+            "properties": {
+                "templateLink": {
+                    "uri": "https://fq3fdgyygxkeostorage.blob.core.windows.net/templates/api.json",
+                    "contentVersion": "1.0.0.0"
+                },
+                "parameters": {
+                    "ApimServiceName": {
+                        "value": "[parameters('ApimServiceName')]"
+                    }
+                },
+                "mode": "Incremental"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Resources/deployments', concat(deployment().name, '-products'))]"
+            ]
+        }
+    ]
+}
