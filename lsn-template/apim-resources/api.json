@@ -33,7 +33,7 @@
                 "type": "http",
                 "apiVersion": "v1",
                 "apiVersionSetId": "[concat('/apiVersionSets/', 'apiversionset',copyIndex())]",
-                "path": "[concat('project',copyIndex(),'vs',copyIndex(),'/api1/v1')]",
+                "path": "[concat('project',copyIndex(),'/','vs',copyIndex(),'api1/v1')]",
                 "protocols": [
                     "https"
                 ]
