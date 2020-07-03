@@ -4,6 +4,9 @@
     "parameters": {
         "ApimServiceName": {
             "value": "gics"
+        },
+        "Myiteration":{
+            "vallue":3
         }
     }
 }

@@ -4,6 +4,9 @@
     "parameters": {
         "ApimServiceName": {
             "type": "string"
+        },
+        "Myiteration": {
+            "type": "int"
         }
     },
     "variables": {
@@ -21,6 +24,9 @@
                 "parameters": {
                     "ApimServiceName": {
                         "value": "[parameters('ApimServiceName')]"
+                    },
+                    "Myiteration": {
+                        "value": "[parameters('Myiteration')]"
                     }
                 },
                 "mode": "Incremental"
@@ -38,6 +44,9 @@
                 "parameters": {
                     "ApimServiceName": {
                         "value": "[parameters('ApimServiceName')]"
+                    },
+                    "Myiteration": {
+                        "value": "[parameters('Myiteration')]"
                     }
                 },
                 "mode": "Incremental"
@@ -58,6 +67,9 @@
                 "parameters": {
                     "ApimServiceName": {
                         "value": "[parameters('ApimServiceName')]"
+                    },
+                    "Myiteration": {
+                        "value": "[parameters('Myiteration')]"
                     }
                 },
                 "mode": "Incremental"
