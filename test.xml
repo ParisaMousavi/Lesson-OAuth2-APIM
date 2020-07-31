@@ -1,58 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Consent xmlns="http://hl7.org/fhir">
-  <id value="consent-example-basic"/> 
-  <text> 
-    <status value="generated"/> 
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p> 
-  Authorize Normal access for Treatment
-      </p> 
-      <p> 
-    Patient &quot;P. van de Heuvel&quot; wishes to have all of the PHI collected at the
-         Good Health Psychiatric Hospital 
-   available for normal treatment use.
-      </p> 
-    </div> 
-  </text> 
-  <status value="active"/> 
-  <scope> 
-    <coding> 
-      <system value="http://terminology.hl7.org/CodeSystem/consentscope"/> 
-      <code value="patient-privacy"/> 
-    </coding> 
-  </scope> 
-  <category> 
-    <coding> 
-      <system value="http://loinc.org"/> 
-      <code value="59284-0"/> 
-    </coding> 
-  </category> 
-  <patient> 
-    <reference value="Patient/f001"/> 
-    <display value="P. van de Heuvel"/> 
-  </patient> 
-  <dateTime value="2016-05-11"/> 
-  <organization> 
-    <reference value="Organization/f001"/> 
-  </organization> 
-  <!--   the terms of the consent as signed by the patient in ink   -->
-  <sourceAttachment> 
-    <title value="The terms of the consent in lawyer speak."/> 
-    <!--   likely use url pointer to common text   -->
-  </sourceAttachment> 
-  <!--   this is plain out opt-in with no exceptions   -->
-  <policyRule> 
-    <coding> 
-      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/> 
-      <code value="OPTIN"/> 
-    </coding> 
-  </policyRule> 
-  <provision> 
-    <!--   bound by a timeframe between 1964 and 2016 - consent.applies   -->
-    <period> 
-      <start value="1964-01-01"/> 
-      <end value="2016-01-01"/> 
-    </period> 
-  </provision> 
-</Consent> 
+<definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.informatica.com/dis/ws/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ws_address_standardization_analytical" targetNamespace="http://www.informatica.com/dis/ws/">
+	<types>
+		<schema xmlns:tns="http://www.informatica.com/dis/ws/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.informatica.com/dis/ws/">
+			<element name="mplt_Address_Standardization_analytical_Operation">
+				<complexType>
+					<sequence>
+						<element maxOccurs="unbounded" minOccurs="0" name="Group">
+							<complexType>
+								<sequence>
+									<element minOccurs="0" name="Address_Line1" type="xsd:string" />
+									<element minOccurs="0" name="Address_Line2" type="xsd:string" />
+									<element minOccurs="0" name="City" type="xsd:string" />
+									<element minOccurs="0" name="County" type="xsd:string" />
+									<element minOccurs="0" name="State" type="xsd:string" />
+									<element minOccurs="0" name="Zip_Code" type="xsd:string" />
+									<element minOccurs="0" name="Zip_Code_Extension" type="xsd:string" />
+									<element minOccurs="0" name="Post_Code_Complete" type="xsd:string" />
+									<element minOccurs="0" name="Country_Name" type="xsd:string" />
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="mplt_Address_Standardization_analytical_OperationResponse">
+				<complexType>
+					<sequence>
+						<element maxOccurs="unbounded" minOccurs="0" name="NEWOUTPUT">
+							<complexType>
+								<sequence>
+									<element minOccurs="0" name="Address_Line1" type="xsd:string" />
+									<element minOccurs="0" name="Address_Line2" type="xsd:string" />
+									<element minOccurs="0" name="City" type="xsd:string" />
+									<element minOccurs="0" name="County" type="xsd:string" />
+									<element minOccurs="0" name="US_State_Code" type="xsd:string" />
+									<element minOccurs="0" name="State_Name" type="xsd:string" />
+									<element minOccurs="0" name="Zip_Code" type="xsd:string" />
+									<element minOccurs="0" name="Zip_Code_Extension" type="xsd:string" />
+									<element minOccurs="0" name="Post_Code_Complete" type="xsd:string" />
+									<element minOccurs="0" name="ISO_Country_Code" type="xsd:string" />
+									<element minOccurs="0" name="Country_Name" type="xsd:string" />
+									<element minOccurs="0" name="Latitude" type="xsd:string" />
+									<element minOccurs="0" name="Longitude" type="xsd:string" />
+									<element minOccurs="0" name="GEO_Status_Code" type="xsd:string" />
+									<element minOccurs="0" name="Search_Business_Key" type="xsd:string" />
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</schema>
+	</types>
+	<message name="mplt_Address_Standardization_analytical_OperationResponse">
+		<part name="mplt_Address_Standardization_analytical_OperationResponse" element="tns:mplt_Address_Standardization_analytical_OperationResponse">
+		</part>
+	</message>
+	<message name="mplt_Address_Standardization_analytical_Operation">
+		<part name="mplt_Address_Standardization_analytical_Operation" element="tns:mplt_Address_Standardization_analytical_Operation">
+		</part>
+	</message>
+	<portType name="ws_address_standardization_analyticalPortType">
+		<operation name="mplt_Address_Standardization_analytical_Operation">
+			<input name="mplt_Address_Standardization_analytical_Operation_Input" message="tns:mplt_Address_Standardization_analytical_Operation">
+			</input>
+			<output name="mplt_Address_Standardization_analytical_Operation_Output" message="tns:mplt_Address_Standardization_analytical_OperationResponse">
+			</output>
+		</operation>
+	</portType>
+	<binding name="ws_address_standardization_analyticalBinding" type="tns:ws_address_standardization_analyticalPortType">
+		<binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<operation name="mplt_Address_Standardization_analytical_Operation">
+			<operation soapAction="" style="document" />
+			<input name="mplt_Address_Standardization_analytical_Operation_Input">
+				<body parts="mplt_Address_Standardization_analytical_Operation" use="literal" />
+			</input>
+			<output name="mplt_Address_Standardization_analytical_Operation_Output">
+				<body parts="mplt_Address_Standardization_analytical_OperationResponse" use="literal" />
+			</output>
+		</operation>
+	</binding>
+	<service name="ws_address_standardization_analytical">
+		<port name="ws_address_standardization_analytical" binding="tns:ws_address_standardization_analyticalBinding">
+			<address location="https://mrasidmbdms02.munichre.com:8093/DataIntegrationService/WebService/ws_address_standardization_analytical" />
+		</port>
+	</service>
+</definitions>
