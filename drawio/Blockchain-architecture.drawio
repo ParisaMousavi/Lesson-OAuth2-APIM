@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-31T22:10:56.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Ah-dbn8B8dasZGy3Briy" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-31T22:12:05.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="X4UcFeubag6sNksR4wPU" version="13.5.8" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="2180" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -205,20 +205,20 @@
             <mxPoint x="254" y="688" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="twqlXJaP6OAdSX2f0VPk-2085" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#0037a3&quot;&gt;Sensors and IoT &lt;br&gt;(unstructured)&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.hardware_board;gradientColor=none;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="215.5" width="84" height="100.5" as="geometry" />
+        <mxCell id="twqlXJaP6OAdSX2f0VPk-2085" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#0037a3&quot;&gt;Sensors and IoT &lt;br&gt;(unstructured)&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.hardware_board;gradientColor=none;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-161.25" y="200" width="54" height="64.61" as="geometry" />
         </mxCell>
-        <mxCell id="twqlXJaP6OAdSX2f0VPk-2087" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#0037a3&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Logs&lt;br&gt;&lt;/font&gt;(unstructured)&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.log_management;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="-158" y="385" width="60" height="75" as="geometry" />
+        <mxCell id="twqlXJaP6OAdSX2f0VPk-2087" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#0037a3&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Logs&lt;br&gt;&lt;/font&gt;(unstructured)&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.security_icons.log_management;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-162.5" y="361" width="52" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="twqlXJaP6OAdSX2f0VPk-2088" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#0037a3&quot;&gt;Media&lt;br&gt;(unstructured)&lt;/font&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.general.video;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="-152.5" y="541" width="49" height="50" as="geometry" />
+        <mxCell id="twqlXJaP6OAdSX2f0VPk-2088" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#0037a3&quot;&gt;Media&lt;br&gt;(unstructured)&lt;/font&gt;" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.general.video;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-162.5" y="500" width="49" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="twqlXJaP6OAdSX2f0VPk-2089" value="&lt;font color=&quot;#0037a3&quot; style=&quot;font-size: 16px&quot;&gt;File&lt;br&gt;(unstructured)&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="-158" y="684" width="47.5" height="50" as="geometry" />
+        <mxCell id="twqlXJaP6OAdSX2f0VPk-2089" value="&lt;font color=&quot;#0037a3&quot; style=&quot;font-size: 14px&quot;&gt;File&lt;br&gt;(unstructured)&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-158" y="620" width="47.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="twqlXJaP6OAdSX2f0VPk-2090" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#0037a3&quot;&gt;Business / Custom APP&lt;br&gt;(unstructured)&lt;/font&gt;" style="shape=mxgraph.signs.tech.computer;html=1;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="-158" y="820" width="60" height="60" as="geometry" />
+        <mxCell id="twqlXJaP6OAdSX2f0VPk-2090" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#0037a3&quot;&gt;Business / Custom APP&lt;br&gt;(unstructured)&lt;/font&gt;" style="shape=mxgraph.signs.tech.computer;html=1;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="-166.5" y="740" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
