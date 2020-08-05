@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-05T14:34:37.084Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="-NVfwnZkIhbz3LN4h3DF" version="13.5.8" type="github">
+<mxfile modified="2020-08-05T14:35:28.669Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="3xgdowWePHnxkT7E5Phy" version="13.5.8" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="LAK8yKWi4n5Mv80_6YAW-9" value="NIC&lt;br&gt;10.0.10.25" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
           <mxGeometry x="506" y="197" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LAK8yKWi4n5Mv80_6YAW-10" value="Simple Azure Virtual Network" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="70" width="368" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
