@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T09:36:53.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="qjN-4kGTYe72Q6qKrztO" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T09:36:59.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="gcB6Rd9s5FBXIfvKTErZ" version="13.6.0" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,6 +93,9 @@
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-32" value="&lt;div&gt;Configure the base URL of other services&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Services&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Customers&quot;: &quot;http://localhost:32211&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Orders&quot;: &quot;http://localhost:32233&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Products&quot;: &quot;http://localhost:32204&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="680" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q5Rw8yXltB3flgJlhMzA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="q5Rw8yXltB3flgJlhMzA-34" target="q5Rw8yXltB3flgJlhMzA-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-34" value="Configure solution&#39;s properties" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="820" width="320" height="40" as="geometry" />
