@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T09:13:07.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="AYrtFMt0r7KMJWKW5DFc" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T09:14:42.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="6B5Vf4kmTduR3ClWprfX" version="13.6.0" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,13 +44,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-12" value="Configure &lt;b&gt;launchsettings.json&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="640" width="320" height="40" as="geometry" />
+          <mxGeometry x="40" y="710" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-13" value="Configure&amp;nbsp;&quot;launchUrl&quot;: &quot;api/products&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="640" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="710" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-14" value="Configure&amp;nbsp;&quot;applicationUrl&quot;: &quot;http://localhost:5000&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="690" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="760" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-17" value="Empty Solution &amp;gt; New Project &amp;gt; ASP.Net Core Web Application &amp;gt; API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="70" width="440" height="20" as="geometry" />
@@ -77,6 +77,9 @@
           <mxGeometry x="440" y="280" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-27" value="Extend Startup.cs , ConfigureServices method" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5Rw8yXltB3flgJlhMzA-29" value="Controller for response to HTTP requests" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="550" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
