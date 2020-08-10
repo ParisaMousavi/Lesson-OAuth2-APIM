@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-10T08:58:47.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Bga9G4pvcoVsZVrmOq5a" version="13.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-10T09:00:38.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="-wLRrGaXumT9vco0ygt4" version="13.6.0" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-2" value="Develop each service in a separate project" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="50" y="100" width="320" height="40" as="geometry" />
+          <mxGeometry x="40" y="100" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-4" value="DB context" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="100" width="320" height="40" as="geometry" />
