@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-24T13:23:36.661Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="RrOVbFIgRi0fZ4MdXnKF" version="13.6.2" type="github">
+<mxfile modified="2020-08-24T13:24:27.640Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="zxAsbbkZhyCx_9Ww0D8y" version="13.6.2" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2591" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-62" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="102" width="120" height="898" as="geometry" />
         </mxCell>
-        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-130" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Virtual network peering&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;fontSize=16;fontColor=#000000;startArrow=openThin;startFill=0;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-2" target="K_c2c4PFbGB0tH_zdqzJ-99">
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-130" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Virtual network peering&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;fontSize=16;fontColor=#000000;startArrow=openThin;startFill=0;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-2" target="K_c2c4PFbGB0tH_zdqzJ-99">
           <mxGeometry x="0.1395" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1060" y="325" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#4D4D4D;" vertex="1" parent="1">
           <mxGeometry x="236" y="190" width="144" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-131" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Asynchronous &lt;br&gt;Replication&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=openThin;startFill=0;endArrow=classicThin;endFill=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-5" target="K_c2c4PFbGB0tH_zdqzJ-102">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-5" value="SQL Server Always on" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#4D4D4D;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="820" y="200" width="130" height="200" as="geometry" />
