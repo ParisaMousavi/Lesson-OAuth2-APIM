@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-24T12:43:03.698Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="rXlQy3lsO5ODNSkSpLoD" version="13.6.2" type="github">
+<mxfile modified="2020-08-24T12:43:34.944Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ntXuiyueHlHI4nx2N-VO" version="13.6.2" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2591" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-69" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-170" y="102" width="120" height="898" as="geometry" />
         </mxCell>
-        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-64" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px&quot;&gt;High Availability&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#5879FC;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-64" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px&quot;&gt;Application High Availability&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#5879FC;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="534" width="120" height="102" as="geometry" />
         </mxCell>
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
@@ -154,7 +154,7 @@
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-60" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_globe.svg;strokeColor=#4D4D4D;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-240" y="510" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-63" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px&quot;&gt;High Availability&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#5879FC;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-63" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 16px&quot;&gt;Application High Availability&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;fillColor=#5879FC;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="10" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
