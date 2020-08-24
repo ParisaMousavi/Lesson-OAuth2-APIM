@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-24T13:24:27.640Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="zxAsbbkZhyCx_9Ww0D8y" version="13.6.2" type="github">
+<mxfile modified="2020-08-24T13:56:39.123Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Maqa0vpI1m4vzWE4x9Q3" version="13.6.2" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2591" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -103,8 +103,14 @@
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-16" value="Internal LB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;dashed=1;strokeColor=#4D4D4D;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="760" y="273" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-17" target="K_c2c4PFbGB0tH_zdqzJ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K_c2c4PFbGB0tH_zdqzJ-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-17" target="K_c2c4PFbGB0tH_zdqzJ-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-17" value="Public LB EU" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;dashed=1;strokeColor=#4D4D4D;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="714" width="50" height="50" as="geometry" />
+          <mxGeometry x="40" y="669" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="K_c2c4PFbGB0tH_zdqzJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="K_c2c4PFbGB0tH_zdqzJ-60" target="K_c2c4PFbGB0tH_zdqzJ-12">
           <mxGeometry relative="1" as="geometry" />
