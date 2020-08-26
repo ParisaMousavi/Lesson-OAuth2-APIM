@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T15:17:53.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Pa_sx3HpnHgpHhxu1BHH" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T15:18:02.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="VCxOlLSvq6nulWj6Zhgr" version="13.6.5" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-37" value="Microsoft.Extensions.Http.Polly &lt;br&gt;(Policy if Service is not available)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="270" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFe-LJPXYdowhtkF4HUg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uFe-LJPXYdowhtkF4HUg-1" target="uFe-LJPXYdowhtkF4HUg-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uFe-LJPXYdowhtkF4HUg-1" value="Providers (interfaces implementation for Entity -&amp;gt; Model)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="630" width="320" height="40" as="geometry" />
