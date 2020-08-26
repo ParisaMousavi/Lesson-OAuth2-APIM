@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T14:39:01.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="rVwxLNnwAS8Ab_T7VSWO" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T14:39:37.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="9ENQo0Q_o1X9HcGGWy5h" version="13.6.5" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,17 +31,23 @@
         <mxCell id="q5Rw8yXltB3flgJlhMzA-2" value="Each Project/Service must have these folders" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="350" width="320" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="uFe-LJPXYdowhtkF4HUg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5Rw8yXltB3flgJlhMzA-4" target="uFe-LJPXYdowhtkF4HUg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFe-LJPXYdowhtkF4HUg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q5Rw8yXltB3flgJlhMzA-4" target="uFe-LJPXYdowhtkF4HUg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-4" value="DB (db context for in memory scenarios)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="350" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-5" value="Interfaces&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="450" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="580" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-6" value="Models" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="400" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="470" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-7" value="Profiles" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="600" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="730" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="q5Rw8yXltB3flgJlhMzA-12" target="q5Rw8yXltB3flgJlhMzA-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -50,13 +56,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-12" value="Configure &lt;b&gt;launchsettings.json&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="940" width="320" height="40" as="geometry" />
+          <mxGeometry x="40" y="1070" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-13" value="Configure&amp;nbsp;&quot;launchUrl&quot;: &quot;api/products&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="940" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="1070" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-14" value="Configure&amp;nbsp;&quot;applicationUrl&quot;: &quot;http://localhost:5000&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="990" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="1120" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-17" value="Empty Solution &amp;gt; New Project &amp;gt; ASP.Net Core Web Application &amp;gt; API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="440" height="20" as="geometry" />
@@ -86,34 +92,34 @@
           <mxGeometry x="440" y="220" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-27" value="Extend Startup.cs , ConfigureServices method" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="650" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="780" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-29" value="Controllers (for response to HTTP requests)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="550" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="680" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="q5Rw8yXltB3flgJlhMzA-31" target="q5Rw8yXltB3flgJlhMzA-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-31" value="Configure &lt;b&gt;appsettings.json&lt;/b&gt; of the central project" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="755" width="320" height="40" as="geometry" />
+          <mxGeometry x="40" y="885" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-32" value="&lt;div&gt;Configure the base URL of other services&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;Services&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Customers&quot;: &quot;http://localhost:32211&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Orders&quot;: &quot;http://localhost:32233&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Products&quot;: &quot;http://localhost:32204&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="720" width="320" height="110" as="geometry" />
+          <mxGeometry x="440" y="850" width="320" height="110" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="q5Rw8yXltB3flgJlhMzA-34" target="q5Rw8yXltB3flgJlhMzA-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-34" value="Configure solution&#39;s properties" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="40" y="860" width="320" height="40" as="geometry" />
+          <mxGeometry x="40" y="990" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-35" value="Set all actions to Start" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="440" y="860" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="990" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-37" value="Microsoft.Extensions.Http.Polly &lt;br&gt;(Policy if Service is not available)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="270" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uFe-LJPXYdowhtkF4HUg-1" value="Providers (interfaces implementation for Entity -&amp;gt; Model)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="500" width="320" height="40" as="geometry" />
+          <mxGeometry x="440" y="630" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uFe-LJPXYdowhtkF4HUg-5" value="&amp;lt;SingularDomainName&amp;gt; class file" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="830" y="330" width="320" height="40" as="geometry" />
