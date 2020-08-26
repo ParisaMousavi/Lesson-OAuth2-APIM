@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T15:19:06.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="K4c29RuTp4CereKBOGhs" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T15:27:38.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="bYTSTn95yIpGSTx55SlG" version="13.6.5" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="q5Rw8yXltB3flgJlhMzA-6" value="Models" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="490" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q5Rw8yXltB3flgJlhMzA-7" value="Profiles" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="q5Rw8yXltB3flgJlhMzA-7" value="Profiles (mapps model to entity)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="440" y="730" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q5Rw8yXltB3flgJlhMzA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="q5Rw8yXltB3flgJlhMzA-12" target="q5Rw8yXltB3flgJlhMzA-13" edge="1">
