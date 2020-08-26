@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T15:18:02.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="VCxOlLSvq6nulWj6Zhgr" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T15:19:06.408Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="K4c29RuTp4CereKBOGhs" version="13.6.5" type="github">
   <diagram id="5WPwIVH1TQHd495wsif2" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="uFe-LJPXYdowhtkF4HUg-11" value="&lt;b&gt;&amp;lt;SingularDomainName&amp;gt;&lt;/b&gt; class file &lt;br&gt;(contains domain attributes)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="830" y="490" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uFe-LJPXYdowhtkF4HUg-13" value="I&lt;b&gt;&amp;lt;SingleDomainName&amp;gt;&lt;/b&gt;Provider interface" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="uFe-LJPXYdowhtkF4HUg-13" value="I&lt;b&gt;&amp;lt;PluralDomainName&amp;gt;&lt;/b&gt;Provider interface" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="830" y="580" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uFe-LJPXYdowhtkF4HUg-15" value="&lt;b&gt;&amp;lt;PluralDomainName&amp;gt;&lt;/b&gt;Provider interface" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" vertex="1" parent="1">
