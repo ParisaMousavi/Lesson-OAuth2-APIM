@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T10:46:24.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="2-IbNTxZRtiNaJOcq-W3" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T10:48:27.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="C_uu7b5ZDLzYcTMTpBRq" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,8 +67,8 @@
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-62" value="Azure Storage High availability" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="29.999999999999996" y="430" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-64" value="By default Azure Storage data has three replica" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="30" y="680" width="460" height="30" as="geometry" />
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-66" value="&lt;span&gt;By default Azure Storage data has three replica (because of three availability zones in one region)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="30" y="680" width="870" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
