@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T17:20:01.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ZcwhCemzmPYQxrtaMHz1" version="13.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-21T19:37:43.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="w1SyDlJsOxCjqKY8KRwT" version="13.7.3" type="github" pages="4">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -185,13 +185,13 @@
           <mxGeometry x="30" y="460" width="730" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aBq8TwPLZ0VwRuxXGVk1-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
-          <mxGeometry x="20" y="550" width="460" height="320" as="geometry" />
+          <mxGeometry x="20" y="550" width="500" height="320" as="geometry" />
         </mxCell>
         <mxCell id="aBq8TwPLZ0VwRuxXGVk1-5" value="VPN Type" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
           <mxGeometry x="40" y="560" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aBq8TwPLZ0VwRuxXGVk1-6" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Tunnel count&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Bandwith&lt;/td&gt;&lt;td&gt;Border Gateway &lt;br&gt;Protocol (BGP)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Basic&lt;/td&gt;&lt;td&gt;Max 10&lt;/td&gt;&lt;td&gt;100 Mbps&lt;/td&gt;&lt;td&gt;Not supported&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#303030&quot;&gt;&lt;span style=&quot;font-size: 20px ; background-color: rgb(255 , 255 , 255)&quot;&gt;VPNGW1&lt;/span&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;Max 30&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;650 Mbps&lt;/td&gt;&lt;td&gt;Supported&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;VPNGW2&lt;/td&gt;&lt;td&gt;Max 30&lt;/td&gt;&lt;td&gt;1 Gbps&lt;/td&gt;&lt;td&gt;Supported&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;VPNGW3&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Max 30&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;1.25 Gbps&lt;/td&gt;&lt;td&gt;Supported&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;Express Route&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;fontSize=18;align=center;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
-          <mxGeometry x="40" y="610" width="430" height="250" as="geometry" />
+          <mxGeometry x="30" y="610" width="480" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
