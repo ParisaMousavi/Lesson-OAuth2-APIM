@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T12:41:36.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Pj7dY0QOttXz40FUrTlI" version="13.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-21T12:41:58.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="eLLj4JzXLhm09sbG2eu7" version="13.7.3" type="github" pages="3">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8tXeIjCkQ4jItrUfL-su" name="ComputeService">
-    <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="TreWmg0at9tefR8BRNd--0" />
         <mxCell id="TreWmg0at9tefR8BRNd--1" parent="TreWmg0at9tefR8BRNd--0" />
@@ -103,7 +103,7 @@
           <mxGeometry x="20" y="70" width="1001.95" height="790" as="geometry" />
         </mxCell>
         <mxCell id="TreWmg0at9tefR8BRNd--3" value="[&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree&quot;&gt;Source&lt;/a&gt;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;" vertex="1" parent="TreWmg0at9tefR8BRNd--1">
-          <mxGeometry x="20" y="70" width="90" height="30" as="geometry" />
+          <mxGeometry x="320" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PyHbjmoQCG1e6FN460KZ-0" value="Compute Service Candidates" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="TreWmg0at9tefR8BRNd--1">
           <mxGeometry x="24.999999999999996" y="30" width="310" height="30" as="geometry" />
@@ -120,7 +120,7 @@
           <mxGeometry x="880" y="60" width="1099.33" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="_uaDFs1WAlsc3g3HhEEs-3" value="&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview&quot;&gt;[Source]&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;" vertex="1" parent="_uaDFs1WAlsc3g3HhEEs-1">
-          <mxGeometry x="1050" y="70" width="90" height="30" as="geometry" />
+          <mxGeometry x="1150" y="20" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gM_caMEVMZcnWxAV8RvP-0" value="Load Balancer Candidates" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_uaDFs1WAlsc3g3HhEEs-1">
           <mxGeometry x="880" y="20" width="280" height="30" as="geometry" />
