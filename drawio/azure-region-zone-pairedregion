@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T12:41:58.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="eLLj4JzXLhm09sbG2eu7" version="13.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-21T12:50:36.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="lYsarowESxYzrY5yYbpj" version="13.7.3" type="github" pages="4">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,6 +125,14 @@
         <mxCell id="gM_caMEVMZcnWxAV8RvP-0" value="Load Balancer Candidates" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_uaDFs1WAlsc3g3HhEEs-1">
           <mxGeometry x="880" y="20" width="280" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C3n8G6bY23BlGKqzP5SF" name="Infrastructure">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="6XXITLGSi4u_4AtEHATX-0" />
+        <mxCell id="6XXITLGSi4u_4AtEHATX-1" parent="6XXITLGSi4u_4AtEHATX-0" />
       </root>
     </mxGraphModel>
   </diagram>
