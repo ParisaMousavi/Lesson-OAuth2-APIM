@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T10:41:44.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Dmh36oQA_HqwHnlODEt4" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T10:46:24.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="2-IbNTxZRtiNaJOcq-W3" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="900" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" width="740" height="390" as="geometry" />
         </mxCell>
@@ -55,11 +58,17 @@
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-50" value="Node 1..15" style="rounded=1;arcSize=10;dashed=1;strokeColor=#9673a6;fillColor=#e1d5e7;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="600" y="233" width="77.02" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-54" value="High availability [&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/availability-zones/az-overview&quot; style=&quot;font-size: 21px;&quot;&gt;Source&lt;/a&gt;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="10" width="270" height="30" as="geometry" />
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-54" value="Azure High availability [&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/availability-zones/az-overview&quot; style=&quot;font-size: 21px&quot;&gt;Source&lt;/a&gt;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-58" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;LRS&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;ZRS&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GRS/RA-GRS&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&amp;nbsp;GZRS/RA-GZRS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Node unavailable&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Datacenter unavailable&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&amp;nbsp;no&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Region outage&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Supported storage&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv1, GPv2, &lt;br&gt;Blob, Block blob,&lt;br&gt;File&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv2, Block blob,&lt;br&gt;File&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&amp;nbsp;GPv1, GPv2, &lt;br&gt;Blob&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv2&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;fontSize=21;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="407" width="880" height="203" as="geometry" />
+          <mxGeometry x="30" y="460" width="880" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-62" value="Azure Storage High availability" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="29.999999999999996" y="430" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-64" value="By default Azure Storage data has three replica" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="30" y="680" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
