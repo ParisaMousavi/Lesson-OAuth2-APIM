@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T12:07:10.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="f85dS44YUjikF8AGKyX8" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T12:07:32.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="josk8B3JHlAYtRRYWI5R" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry x="29.999999999999996" y="430" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-66" value="&lt;b&gt;Availability&lt;/b&gt;: is about how often a system operates as expected. Typically measured as a percentage of time a system is running.&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="950" y="430" width="710" height="70" as="geometry" />
+          <mxGeometry x="950" y="460" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="770" width="900" height="390" as="geometry" />
@@ -83,10 +83,10 @@
           <mxGeometry x="790" y="60" width="860" height="230" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-71" value="&lt;b&gt;Reliability&lt;/b&gt;: is about how likely something is to be operating as expected at any given point in time." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="950" y="515" width="710" height="70" as="geometry" />
+          <mxGeometry x="950" y="545" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-72" value="&lt;b&gt;Resiliency&lt;/b&gt;: is about how quickly and easily a system can be brought back online after an outage." style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="950" y="593" width="710" height="70" as="geometry" />
+          <mxGeometry x="950" y="630" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-73" value="By default, the storage data is replicated three times in three zones." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="30" y="680" width="870" height="50" as="geometry" />
