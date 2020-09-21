@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T10:21:29.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Ve2gdhYsuTT9A9SLXEiA" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T10:37:16.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="i2hXktJMKQSXIx8D-i4F" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="1">
           <mxGeometry width="740" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" width="740" height="390" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-41" value="Region" style="rounded=1;arcSize=10;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;dashPattern=8 4;strokeWidth=2;fontSize=14;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="10" y="50" width="720" height="250" as="geometry" />
@@ -21,9 +18,6 @@
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-25" value="&lt;b style=&quot;font-size: 16px&quot;&gt;Availability zones&lt;/b&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;- They have separate power, network, cooling&lt;br&gt;- Each region has a minimum three zones" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="10" y="310" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-27" value="Redundancy option&lt;br&gt;&lt;b&gt;LRS &lt;/b&gt;: Locally redundant storage (datacenter level if n&lt;span style=&quot;color: rgb(36 , 41 , 46) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;ode unavailability&lt;/span&gt;)&lt;br&gt;&lt;b&gt;ZRS &lt;/b&gt;: Zone redundant storage (zone level if entire datacenter unavailable)&lt;br&gt;&lt;b&gt;GRS &lt;/b&gt;: Geographically redundant storage (region level if regional outage)&lt;br&gt;&lt;b&gt;GZRS&lt;/b&gt; :&amp;nbsp;&lt;br&gt;&lt;br&gt;Usually a replica is not accessible, to have an accessible replica azure offers&lt;br&gt;- RA-GRS :&lt;br&gt;- RA-GZRS :" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="760" y="10" width="560" height="180" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-35" value="Datacenter 1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="210" y="97" width="150" height="60" as="geometry" />
@@ -63,6 +57,9 @@
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-54" value="High availability [&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/availability-zones/az-overview&quot; style=&quot;font-size: 21px;&quot;&gt;Source&lt;/a&gt;]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-58" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;LRS&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;ZRS&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GRS/RA-GRS&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&amp;nbsp;GZRS/RA-GZRS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Node unavailable&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Datacenter unavailable&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;&amp;nbsp;no&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Region outage&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;no&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;yes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Supported storage&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv1, GPv2, Blob&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv2&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&amp;nbsp;Gpv1, GPv2, Blob&lt;/td&gt;&lt;td style=&quot;text-align: center&quot;&gt;GPv2&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;fontSize=21;align=left;" vertex="1" parent="1">
+          <mxGeometry y="407" width="800" height="143" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
