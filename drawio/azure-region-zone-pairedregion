@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T12:58:42.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="7YBkY3rQrYK8P1JFqW3O" version="13.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-21T13:00:54.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="-7bxMujUA_DcmJUNWvEd" version="13.7.3" type="github" pages="4">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,6 +133,9 @@
       <root>
         <mxCell id="6XXITLGSi4u_4AtEHATX-0" />
         <mxCell id="6XXITLGSi4u_4AtEHATX-1" parent="6XXITLGSi4u_4AtEHATX-0" />
+        <mxCell id="NfUEasqVe4CeJs5zDuqU-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
+          <mxGeometry x="20" y="80" width="740" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="oY4q03TCIoWjCKA8ZQ1L-0" value="&amp;nbsp;VNet&amp;nbsp;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
           <mxGeometry x="40" y="30" width="60" height="20" as="geometry" />
         </mxCell>
@@ -153,6 +156,9 @@
         </mxCell>
         <mxCell id="oY4q03TCIoWjCKA8ZQ1L-6" value="Service Endpoint" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
           <mxGeometry x="650" y="30" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oY4q03TCIoWjCKA8ZQ1L-7" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;VPN Gateway&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Express Route&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;VPN Gateway&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 5&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Value 7&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 8&lt;/td&gt;&lt;td align=&quot;center&quot;&gt;Value 9&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=none;fillColor=none;overflow=fill;fontSize=18;align=center;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
+          <mxGeometry x="55" y="100" width="395" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
