@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T13:15:40.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="eLQ4PdbkOg8ZMOiTv8fZ" version="13.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-21T13:19:41.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="InzuNODl8cJPmajpDoas" version="13.7.3" type="github" pages="4">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="eX1cb29gXn_drBv2cDWG-2" value="Private IP" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
           <mxGeometry x="140" y="70" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eX1cb29gXn_drBv2cDWG-3" value="Express Route Circuite" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="6XXITLGSi4u_4AtEHATX-1">
+          <mxGeometry x="240" y="70" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
