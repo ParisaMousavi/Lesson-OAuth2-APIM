@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T09:57:05.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="jNcOj2MHL5fp0x9gE51v" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T09:57:56.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ASOPVyANqdES9SoSDzAu" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-41" value="Region" style="rounded=1;arcSize=10;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;dashPattern=8 4;strokeWidth=2;fontSize=14;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="540" y="16.25" width="630" height="143.75" as="geometry" />
         </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-37" value="Zone 1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-37" value="Availability zone 1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="560" y="43" width="370" height="97" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-16" value="Cloud Provider Backbone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="eaKVVopV8s6Kq9tjVXI_-17" target="eaKVVopV8s6Kq9tjVXI_-18">
@@ -63,7 +63,7 @@
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-36" value="Datacenter 2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="750" y="71" width="150" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="eaKVVopV8s6Kq9tjVXI_-42" value="Zone 2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="eaKVVopV8s6Kq9tjVXI_-42" value="Availability zone 2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="940" y="43" width="210" height="97" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-43" value="Datacenter" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
