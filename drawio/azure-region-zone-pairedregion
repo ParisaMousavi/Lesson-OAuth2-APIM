@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T09:31:18.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="S_GkVyfIw9CD70xghowG" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T09:31:38.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="TKhT6j0UINlftBQZl7B9" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,37 +7,37 @@
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-11" value="Cloud Provider Backbone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="eaKVVopV8s6Kq9tjVXI_-4" target="eaKVVopV8s6Kq9tjVXI_-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="580" />
-              <mxPoint x="400" y="580" />
+              <mxPoint x="140" y="40" />
+              <mxPoint x="380" y="40" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-4" value="Region&#xa;west europa (paris)" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="640" width="199.5" height="220" as="geometry" />
+          <mxGeometry x="40" y="100" width="199.5" height="220" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-5" value="Region&#xa;cental europa (frankfurt)" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="300" y="640" width="199.5" height="220" as="geometry" />
+          <mxGeometry x="280" y="100" width="199.5" height="220" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=1;fontSize=14;" edge="1" parent="1" source="eaKVVopV8s6Kq9tjVXI_-6" target="eaKVVopV8s6Kq9tjVXI_-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-6" value="zone-1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="84.75" y="660" width="150" height="49.5" as="geometry" />
+          <mxGeometry x="64.75" y="120" width="150" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=1;fontSize=14;" edge="1" parent="1" source="eaKVVopV8s6Kq9tjVXI_-7" target="eaKVVopV8s6Kq9tjVXI_-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-7" value="zone-1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="324.75" y="660" width="150" height="49.5" as="geometry" />
+          <mxGeometry x="304.75" y="120" width="150" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-8" value="zone-2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="84.75" y="790" width="150" height="49.5" as="geometry" />
+          <mxGeometry x="64.75" y="250" width="150" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-9" value="zone-2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="324.75" y="790" width="150" height="49.5" as="geometry" />
+          <mxGeometry x="304.75" y="250" width="150" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-14" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;Availability zone&lt;/b&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;- Not all region support it&lt;br style=&quot;font-size: 16px;&quot;&gt;- They have separate power, network, cooling" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="60" y="880" width="340" height="60" as="geometry" />
+          <mxGeometry x="40" y="340" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
