@@ -1,41 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T10:01:03.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="8qrRc9cu44ciYhsSmdpb" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T10:01:14.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="W5a-24XvqmBQTDmZq6aS" version="13.7.3" type="github">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Page-1">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-41" value="Region" style="rounded=1;arcSize=10;dashed=1;strokeColor=#82b366;fillColor=#d5e8d4;dashPattern=8 4;strokeWidth=2;fontSize=14;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="540" y="16.25" width="630" height="143.75" as="geometry" />
+          <mxGeometry x="10" y="10" width="630" height="143.75" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-37" value="Availability zone 1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="560" y="43" width="370" height="97" as="geometry" />
+          <mxGeometry x="30" y="36.75" width="370" height="97" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-25" value="&lt;b style=&quot;font-size: 16px&quot;&gt;Availability zones&lt;/b&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;- Not all regions support it&lt;br style=&quot;font-size: 16px&quot;&gt;- They have separate power, network, cooling" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="540" y="167.50000000000003" width="340" height="60" as="geometry" />
+          <mxGeometry x="10" y="161.25000000000003" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-27" value="Redundancy option&lt;br&gt;&lt;b&gt;LRS &lt;/b&gt;: Locally redundant storage&lt;br&gt;&lt;b&gt;ZRS &lt;/b&gt;: Zone redundant storage&lt;br&gt;&lt;b&gt;GRS &lt;/b&gt;: Geographically redundanr storage" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="570" y="410" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-35" value="Datacenter 1" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="590" y="70" width="150" height="60" as="geometry" />
+          <mxGeometry x="60" y="63.75" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-36" value="Datacenter 2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="750" y="71" width="150" height="59" as="geometry" />
+          <mxGeometry x="220" y="64.75" width="150" height="59" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-42" value="Availability zone 2" style="rounded=1;arcSize=10;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="940" y="43" width="210" height="97" as="geometry" />
+          <mxGeometry x="410" y="36.75" width="210" height="97" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-43" value="Datacenter" style="rounded=1;arcSize=10;dashed=1;strokeColor=#d6b656;fillColor=#fff2cc;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="970" y="71" width="150" height="59" as="geometry" />
+          <mxGeometry x="440" y="64.75" width="150" height="59" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-45" value="Node 1..20" style="rounded=1;arcSize=10;dashed=1;strokeColor=#9673a6;fillColor=#e1d5e7;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="648.98" y="93" width="77.02" height="30" as="geometry" />
+          <mxGeometry x="118.98000000000002" y="86.75" width="77.02" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-46" value="Node 1..10" style="rounded=1;arcSize=10;dashed=1;strokeColor=#9673a6;fillColor=#e1d5e7;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="811.49" y="93" width="77.02" height="30" as="geometry" />
+          <mxGeometry x="281.49" y="86.75" width="77.02" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eaKVVopV8s6Kq9tjVXI_-47" value="Node 1..15" style="rounded=1;arcSize=10;dashed=1;strokeColor=#9673a6;fillColor=#e1d5e7;dashPattern=8 4;strokeWidth=2;fontSize=14;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="93" width="77.02" height="30" as="geometry" />
+          <mxGeometry x="500" y="86.75" width="77.02" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
