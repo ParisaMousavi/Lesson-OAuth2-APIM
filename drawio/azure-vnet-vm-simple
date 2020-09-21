@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-21T21:42:54.982Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="kqIbDoI1AY3uoBL2cDie" version="13.7.3" type="github">
+<mxfile modified="2020-09-21T21:50:23.676Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="bwLPf8HLJ7AndPiwumnw" version="13.7.3" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="m6WpHGbfPc2uBtb1IJeh-16" value="On prem VPN" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1075.5" y="490" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m6WpHGbfPc2uBtb1IJeh-18" value="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="385" y="670" width="520" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
