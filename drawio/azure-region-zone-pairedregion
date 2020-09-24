@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T21:34:28.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="kXaVqUTitOoifcx7LSZy" version="13.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-24T21:35:24.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="EvGjonexKMoutXrgsD_E" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -320,6 +320,9 @@
         </mxCell>
         <mxCell id="BeTd0KSE9RAmfcn8aFLy-30" value="SQL Server Migration Assistant" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="710" y="670" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-32" value="Start point:&amp;nbsp;https://datamigration.microsoft.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="700" y="40" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
