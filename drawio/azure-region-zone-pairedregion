@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T20:43:06.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="KcgSSJvanwpuxeaDSOu1" version="13.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-24T20:43:20.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ulnuRWQ8ETj6gaeHMM6Z" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -252,6 +252,9 @@
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="380" y="60" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-6" target="BeTd0KSE9RAmfcn8aFLy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-6" value="Migrate database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -274,7 +277,7 @@
           <mxGeometry x="710" y="120" width="720" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BeTd0KSE9RAmfcn8aFLy-14" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BeTd0KSE9RAmfcn8aFLy-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="700" y="360" width="740" height="280" as="geometry" />
