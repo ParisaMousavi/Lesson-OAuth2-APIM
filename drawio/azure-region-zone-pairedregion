@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T10:04:20.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="GffzE_bflVi_caVrxVzo" version="13.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-24T20:22:10.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="B1JVyFFFBjqlNp3idkxU" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C3n8G6bY23BlGKqzP5SF" name="Infrastructure">
-    <mxGraphModel dx="2031" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6XXITLGSi4u_4AtEHATX-0" />
         <mxCell id="6XXITLGSi4u_4AtEHATX-1" parent="6XXITLGSi4u_4AtEHATX-0" />
@@ -235,6 +235,14 @@
         <mxCell id="vMKa3oKFyYri1aBOrU-4-13" value="On prem VPN" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.gateway;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="6XXITLGSi4u_4AtEHATX-1" vertex="1">
           <mxGeometry x="670.5" y="658" width="50" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pH1jtY4uBGa9q7WUC2-j" name="Migration">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-0" />
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-1" parent="_DTl2XQZ8Tab0hb2EM1T-0" />
       </root>
     </mxGraphModel>
   </diagram>
