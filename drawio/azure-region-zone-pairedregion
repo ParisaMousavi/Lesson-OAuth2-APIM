@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T12:35:54.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="AgwfOeFnEpXx8H7Hl9HP" version="13.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-25T12:36:53.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ro0AJOhg52Xs40TbCsK7" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pH1jtY4uBGa9q7WUC2-j" name="Migration">
-    <mxGraphModel dx="2523" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-0" />
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-1" parent="_DTl2XQZ8Tab0hb2EM1T-0" />
@@ -345,11 +345,23 @@
         <mxCell id="CMTvqckXzvgZEZa0eBlb-2" value="Disaster Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="70" y="-820" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-5" target="CMTvqckXzvgZEZa0eBlb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-5" value="On-Prem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="220" y="-650" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-6" target="CMTvqckXzvgZEZa0eBlb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-6" value="Cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="-70" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-9" value="Azure Site Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="220" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-11" value="Azure Site Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="-70" y="-540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
