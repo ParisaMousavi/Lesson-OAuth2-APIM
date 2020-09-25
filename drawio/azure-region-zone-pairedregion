@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T21:37:05.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="djKaZAgPc5JcevHIjDgV" version="13.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-25T12:35:54.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="AgwfOeFnEpXx8H7Hl9HP" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -239,90 +239,117 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pH1jtY4uBGa9q7WUC2-j" name="Migration">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2523" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-0" />
         <mxCell id="_DTl2XQZ8Tab0hb2EM1T-1" parent="_DTl2XQZ8Tab0hb2EM1T-0" />
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="650" width="740" height="280" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-350" width="740" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="360" width="740" height="280" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-640" width="740" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-26" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="720" y="530" width="240" height="100" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-26" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="510" y="-470" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="360" width="740" height="280" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-640" width="740" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-2" target="_DTl2XQZ8Tab0hb2EM1T-6">
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-2" target="CMTvqckXzvgZEZa0eBlb-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-2" target="_DTl2XQZ8Tab0hb2EM1T-7">
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-2" target="CMTvqckXzvgZEZa0eBlb-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="380" y="60" width="120" height="80" as="geometry" />
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="-280" y="-960" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-6" target="BeTd0KSE9RAmfcn8aFLy-14">
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-6" target="BeTd0KSE9RAmfcn8aFLy-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-6" value="Migrate database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-6" value="Migrate database" style="rounded=1;whiteSpace=wrap;html=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="-650" y="-650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-7" target="_DTl2XQZ8Tab0hb2EM1T-10">
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="_DTl2XQZ8Tab0hb2EM1T-7" target="_DTl2XQZ8Tab0hb2EM1T-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-7" value="Migrate Infrastructure VM, Hyper-V, VMware Servers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="520" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-7" value="Migrate Infrastructure VM, Hyper-V, VMware Servers" style="rounded=1;whiteSpace=wrap;html=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="-280" y="-650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-10" value="Azure Migrate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="_DTl2XQZ8Tab0hb2EM1T-10" value="Azure Migrate" style="rounded=1;whiteSpace=wrap;html=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="-280" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="70" width="740" height="280" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-930" width="740" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-10" value="Azure Migare" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="90" width="150" height="30" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-10" value="Azure Migare" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-910" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-11" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - Perform an &lt;b&gt;agentless &lt;/b&gt;migration of virtual and physical servers.&lt;br&gt;2 - Replicates up to 100 VMs simultaneously.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="120" width="720" height="50" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-11" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - Perform an &lt;b&gt;agentless &lt;/b&gt;migration of virtual and physical servers.&lt;br&gt;2 - Replicates up to 100 VMs simultaneously.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-880" width="720" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-14" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-14" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="-650" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="360" width="740" height="280" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;align=left;fillColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-640" width="740" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-16" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="380" width="350" height="30" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-16" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-620" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-17" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="410" width="720" height="50" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-17" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-590" width="720" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-19" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="720" y="530" width="240" height="100" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-19" value="Azure Database Migration Service" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="510" y="-470" width="240" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-20" value="Data Migration Assistant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="745" y="570" width="190" height="50" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-20" value="Data Migration Assistant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="535" y="-430" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-22" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="380" width="350" height="30" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-22" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-620" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-23" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="410" width="720" height="50" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-23" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-590" width="720" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-24" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="380" width="350" height="30" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-24" value="Azure Database Migration Service" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-620" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-29" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="700" width="720" height="50" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-29" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;1 - ...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-300" width="720" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-30" value="SQL Server Migration Assistant" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="710" y="670" width="330" height="30" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-30" value="SQL Server Migration Assistant" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=21;fontStyle=1" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="500" y="-330" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BeTd0KSE9RAmfcn8aFLy-32" value="Start point:&amp;nbsp;https://datamigration.microsoft.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="700" y="40" width="270" height="20" as="geometry" />
+        <mxCell id="BeTd0KSE9RAmfcn8aFLy-32" value="Start point:&amp;nbsp;https://datamigration.microsoft.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="_DTl2XQZ8Tab0hb2EM1T-1" vertex="1">
+          <mxGeometry x="490" y="-960" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-0" value="Disaster Recovery &amp;amp; Migration" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="70" y="-1080" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-1" target="_DTl2XQZ8Tab0hb2EM1T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-1" target="_DTl2XQZ8Tab0hb2EM1T-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-1" value="Migration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="-470" y="-820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-2" target="CMTvqckXzvgZEZa0eBlb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-2" target="CMTvqckXzvgZEZa0eBlb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-2" value="Disaster Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="70" y="-820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-5" value="On-Prem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="220" y="-650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-6" value="Cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="-70" y="-650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
