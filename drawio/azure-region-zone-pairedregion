@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T12:36:53.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ro0AJOhg52Xs40TbCsK7" version="13.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-25T12:40:35.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="sv4ks3zTac1r2p6gyuq5" version="13.7.5" type="github" pages="5">
   <diagram id="1ACq-11e1l9Tv9z1Kxbe" name="Availability">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -327,10 +327,13 @@
         <mxCell id="CMTvqckXzvgZEZa0eBlb-0" value="Disaster Recovery &amp;amp; Migration" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="70" y="-1080" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CMTvqckXzvgZEZa0eBlb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-1" target="_DTl2XQZ8Tab0hb2EM1T-6">
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-13" target="_DTl2XQZ8Tab0hb2EM1T-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CMTvqckXzvgZEZa0eBlb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-1" target="_DTl2XQZ8Tab0hb2EM1T-7">
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-13" target="_DTl2XQZ8Tab0hb2EM1T-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-1" target="CMTvqckXzvgZEZa0eBlb-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-1" value="Migration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
@@ -349,19 +352,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-5" value="On-Prem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="220" y="-650" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="_DTl2XQZ8Tab0hb2EM1T-1" source="CMTvqckXzvgZEZa0eBlb-6" target="CMTvqckXzvgZEZa0eBlb-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-6" value="Cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
-          <mxGeometry x="-70" y="-650" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-9" value="Azure Site Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="220" y="-540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CMTvqckXzvgZEZa0eBlb-11" value="Azure Site Recovery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
           <mxGeometry x="-70" y="-540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-13" value="On-Prem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="-470" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CMTvqckXzvgZEZa0eBlb-15" value="&lt;span style=&quot;font-family: &amp;#34;segoe ui&amp;#34; , &amp;#34;segoeui&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;If Database is running on a VM, its migration is not supported in this scenario.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="_DTl2XQZ8Tab0hb2EM1T-1">
+          <mxGeometry x="-330" y="-460" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
