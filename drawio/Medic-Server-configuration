@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T13:45:11.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8dIefT4dOiuHSC6aQSqa" version="13.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T13:46:41.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="SQThtpqqbDNwKx-prGna" version="13.8.0" type="github">
   <diagram id="3SKxBUS6ynV3E5pmgaUz" name="Page-1">
     <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="ZfL3mEqFxYcRg2nQyEh5-2" value="VM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="360.91" y="191" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfL3mEqFxYcRg2nQyEh5-3" value="VM Settings&lt;br&gt;- Debian buster 10&lt;br&gt;- Amd64" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="310" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
