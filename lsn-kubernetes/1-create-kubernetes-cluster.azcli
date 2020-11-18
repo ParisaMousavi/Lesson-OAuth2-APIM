@@ -1,0 +1,27 @@
+
+# resource link
+# https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough
+
+az login
+
+az group create --name lesson1 --location eastus
+
+az aks create --name myAKSCluster --resource-group lesson1 --node-count 1 --enable-addons monitoring --generate-ssh-keys
+
+#To manage a Kubernetes cluster, you use kubectl, the Kubernetes command-line client
+az aks install-cli
+
+# To configure kubectl to connect to your Kubernetes cluster, 
+# use the az aks get-credentials command. This command downloads credentials and 
+# configures the Kubernetes CLI to use them.
+az aks get-credentials --resource-group lesson1 --name myAKSCluster
+
+# To verify the connection to your cluster, use the kubectl get 
+# command to return a list of the cluster nodes.
+kubctl get nodes
+
+# Azure Dev Space 
+# https://docs.microsoft.com/en-us/azure/dev-spaces/
+
+kubctl apply -f 2-azure-vote.yaml
+

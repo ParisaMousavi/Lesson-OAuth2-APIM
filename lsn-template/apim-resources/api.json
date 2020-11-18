@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ApimServiceName": {
+            "type": "string"
+        },
+        "Myiteration": {
+           "type": "int"
+        }
+    },
+    "variables": {
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('ApimServiceName'),'/','apiversionseti',parameters('Myiteration'),copyIndex())]",
+            "type": "Microsoft.ApiManagement/service/apiVersionSets",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('apiversionseti',parameters('Myiteration'),copyIndex())]",
+                "description": "[concat('apiversionseti',parameters('Myiteration'),copyIndex())]",
+                "versioningScheme": "Segment"
+            },
+            "copy": {
+                "name": "apiVersionSetsLoop",
+                "count": 200
+            }
+        },
+        {
+            "name": "[concat(parameters('ApimServiceName'),'/','vs',copyIndex(),'api',parameters('Myiteration'))]",
+            "type": "Microsoft.ApiManagement/service/apis",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('vs',copyIndex(),'api',parameters('Myiteration'))]",
+                "description": "[concat('vs',copyIndex(),'api',parameters('Myiteration'))]",
+                "type": "http",
+                "apiVersion": "v1",
+                "apiVersionSetId": "[concat('/apiVersionSets/', 'apiversionseti',parameters('Myiteration'),copyIndex())]",
+                "path": "[concat('project',copyIndex(),'/','vs',copyIndex(),'api',parameters('Myiteration'),'/v1')]",
+                "protocols": [
+                    "https"
+                ]
+            },
+            "dependsOn": [
+                "apiVersionSetsLoop"
+            ],
+            "copy": {
+                "name": "apisLoop",
+                "count": 200
+            }
+        },
+        {
+            "name": "[concat(parameters('ApimServiceName'), '/','producti',parameters('Myiteration'), copyIndex(), '/','vs',copyIndex(), 'api',parameters('iteration'))]",
+            "type": "Microsoft.ApiManagement/service/products/apis",
+            "apiVersion": "2019-01-01",
+            "properties": {
+            },
+            "dependsOn": [
+                "apisLoop"
+            ],
+            "copy": {
+                "name": "productApisLoop",
+                "count": 200
+            }
+        }
+    ]
+}

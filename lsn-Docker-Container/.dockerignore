@@ -1,0 +1,6 @@
+.dockerignore
+.git/
+.foo/*
+**/*.swp
+**/*.txt
+!special.txt

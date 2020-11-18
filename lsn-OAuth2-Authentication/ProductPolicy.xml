@@ -1,0 +1,41 @@
+<policies>
+    <inbound>
+        <base />
+        <find-and-replace from="message" to="notification" />
+        <ip-filter action="allow">
+            <address>193.103.207.10</address>
+            <address>95.115.32.217</address>
+        </ip-filter>
+        
+        <validate-jwt header-name="" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized" require-expiration-time="true" require-scheme="Bearer" require-signed-tokens="true" clock-skew="0">
+            <openid-config url="">
+            <issuer-signing-keys>
+                <key>Base64 Encoded Key</key>
+            </issuer-signing-keys>
+            <audiences>
+                <audience></audience>
+            </audiences>
+            <issuers>
+                <issuer></issuer>
+            </issuers>
+            <required-claims>
+                <claim name="" match="all">
+                    <value></value>
+                </claim>
+            </required-claims>
+        </validate-jwt>
+        
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+        <set-header name="Developer" exists-action="append">
+            <value>Parisa Moosavi</value>
+        </set-header>
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>

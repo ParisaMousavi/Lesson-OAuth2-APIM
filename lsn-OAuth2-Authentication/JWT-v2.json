@@ -1,0 +1,16 @@
+{
+    "aud": "api://839d2b83-247c-497b-af02-891662f69ecd",
+    "iss": "https://sts.windows.net/582259a1-dcaa-4cca-b1cf-e60d3f045ecd/",
+    "iat": "[Local:GMT+1]: 27 Mar 2020, 7:15:01 // [UTC]: 27 Mar 2020, 6:15:01",
+    "nbf": "[Local:GMT+1]: 27 Mar 2020, 7:15:01 // [UTC]: 27 Mar 2020, 6:15:01",
+    "exp": "[Local:GMT+1]: 27 Mar 2020, 8:20:01 // [UTC]: 27 Mar 2020, 7:20:01",
+    "aio": "42dgYFgpWbOr2yJwa/qK3z/2njqUDAA=",
+    "appid": "839d2b83-247c-497b-af02-891662f69ecd",
+    "appidacr": "1",
+    "idp": "https://sts.windows.net/582259a1-dcaa-4cca-b1cf-e60d3f045ecd/",
+    "oid": "a2ce19ec-a4ad-4f89-a875-d96974a5ebf1",
+    "sub": "a2ce19ec-a4ad-4f89-a875-d96974a5ebf1",
+    "tid": "582259a1-dcaa-4cca-b1cf-e60d3f045ecd",
+    "uti": "zffe5gpSFE2Z7CZPEccAAA",
+    "ver": "1.0"
+}

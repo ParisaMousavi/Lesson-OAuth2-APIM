@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ApimServiceName": {
+            "type": "string"
+        },
+        "Myiteration": {
+           "type": "int"
+        }
+    },
+    "variables": {
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('ApimServiceName'), '/','producti',parameters('Myiteration'), copyIndex())]",
+            "type": "Microsoft.ApiManagement/service/products",
+            "apiVersion": "2019-01-01",
+            "properties": {
+                "displayName": "[concat('producti',parameters('Myiteration'), copyIndex())]",
+                "description": "[concat('producti',parameters('Myiteration'), copyIndex())]",
+                "subscriptionRequired": "true",
+                "approvalRequired": "true",
+                "subscriptionsLimit": "1",
+                "state": "notPublished"
+            },
+            "copy": {
+                "name": "productsLoop",
+                "count": 200
+            }
+        }
+    ]
+}

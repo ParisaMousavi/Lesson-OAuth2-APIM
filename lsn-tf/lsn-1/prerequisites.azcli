@@ -1,0 +1,18 @@
+az login
+
+
+
+az account list --query "[].{name:name, subscriptionId:id}"
+
+az account set --subscription="<subscription_id>"
+
+cd clouddrive
+
+mkdir QuickstartTerraformTest
+
+cd QuickstartTerraformTest
+
+code QuickstartTerraformTest.tf
+
+# resource
+- https://docs.microsoft.com/en-us/azure/developer/terraform/getting-started-cloud-shell

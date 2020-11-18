@@ -1,0 +1,39 @@
+
+@apiProxyClientId=29f8e764-f7dd-433d-a655-0dfc70dcc268
+@apiproxySecret=9827XemCFZGlxn.DlMo-YZ=AVzyGmXe?
+@apiClientClientId=5bdabaca-519e-43dd-9822-c84d1fc3f703
+@apiClientSecret=:1zq.q-]cBZ5ol34:.Mo:5BE8wrOz/.7
+@tenandId=a9ebb648-f810-44f9-81f5-a84d59d6bf04
+
+GET https://tekaris-apim-dev-we.azure-api.net/parisa/dev/demo/v1/info
+Host: tekaris-apim-dev-we.azure-api.net
+Ocp-Apim-Subscription-Key: 0cddbe97aa034591beabc9b0897c2334
+Ocp-Apim-Trace: true
+
+### Call with JWT Token
+GET https://tekaris-apim-dev-we.azure-api.net/parisa/dev/demo/v1/info
+Ocp-Apim-Subscription-Key: 0cddbe97aa034591beabc9b0897c2334
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IkhsQzBSMTJza3hOWjFXUXdtak9GXzZ0X3RERSIsImtpZCI6IkhsQzBSMTJza3hOWjFXUXdtak9GXzZ0X3RERSJ9.eyJhdWQiOiIyOWY4ZTc2NC1mN2RkLTQzM2QtYTY1NS0wZGZjNzBkY2MyNjgiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hOWViYjY0OC1mODEwLTQ0ZjktODFmNS1hODRkNTlkNmJmMDQvIiwiaWF0IjoxNTgyMjAwOTIzLCJuYmYiOjE1ODIyMDA5MjMsImV4cCI6MTU4MjIwNDgyMywiYWlvIjoiNDJOZ1lQZzkzV05tSmVQcFoyZldMd3lSUGZUZkNBQT0iLCJhcHBpZCI6IjViZGFiYWNhLTUxOWUtNDNkZC05ODIyLWM4NGQxZmMzZjcwMyIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2E5ZWJiNjQ4LWY4MTAtNDRmOS04MWY1LWE4NGQ1OWQ2YmYwNC8iLCJvaWQiOiI0NzJmYmI0OC0zZmI3LTRhZmEtYWU5NS03ZmRlOGJhNjk1YjIiLCJzdWIiOiI0NzJmYmI0OC0zZmI3LTRhZmEtYWU5NS03ZmRlOGJhNjk1YjIiLCJ0aWQiOiJhOWViYjY0OC1mODEwLTQ0ZjktODFmNS1hODRkNTlkNmJmMDQiLCJ1dGkiOiJUVVZHQ2VSc2cwR2gzaDlSejlUd0FBIiwidmVyIjoiMS4wIn0.AC3jdbAPjDHuIyKbJwcetpq7hmFiSWi47ikbUU-1-jGAzgN0Wna6B4F59TO7NUAo7CUNNoybb0rkp4WwkhZx4-h8PFy4_M7JpJEIa-RS7sxN4bEb8ilSyTJyYurLpls-LUFUQQZRnAzxyWD5U_zCKb_grv4aAUa-ujVGdkuLjG65DlbjachMR4dW60DEoN5WDES11B8uVlDWedGtjtYlKxCK5qLv7hz01RAYMpnoDEPPGBAafnEPaH1oQcohwYi1P0MvAl8Gnvwwz1q-EKphjTr2xdRDL1_dcN7K675uv3I6ym_v-tYPnadaTf5Qyt2LM-iuHZ10Nv6lIsqKC11hGQ
+
+
+
+### Get the apiClient token using the v2 endpoint. It requires to Set the Application Id URI
+POST https://login.microsoftonline.com/{{tenandId}}/oauth2/v2.0/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{apiClientClientId}}
+&client_secret={{apiClientSecret}}
+&scope=api://{{apiProxyClientId}}/.default
+&grant_type=client_credentials
+
+### Get the apiClient token using the v1 endpoint.
+POST https://login.microsoftonline.com/{{tenandId}}/oauth2/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{apiClientClientId}}
+&client_secret={{apiClientSecret}}
+&grant_type=client_credentials
+&resource={{apiProxyClientId}}
+
+
+https://login.microsoftonline.com/a9ebb648-f810-44f9-81f5-a84d59d6bf04/.well-known/openid-configuration

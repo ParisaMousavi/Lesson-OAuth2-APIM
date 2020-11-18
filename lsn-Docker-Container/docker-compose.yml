@@ -1,0 +1,22 @@
+version: "3"
+
+services: 
+    redis:
+        image: "redis:3.2-alpine"
+        ports: 
+            - "6379:6379"
+        volumes: 
+            - "redis:/data"
+    web:
+        build: "./web"
+        depends_on: 
+            - "redis"
+        env_file: 
+            - ".env"
+        #images: "parisadocker/web2:latest"
+        ports: 
+            - "5000:80"
+        volumes: 
+            - ".:/app"
+volumes: 
+    redis:{}
