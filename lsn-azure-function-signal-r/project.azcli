@@ -1,9 +1,0 @@
-let randomNum=$RANDOM*$RANDOM
-
-STORAGEACCOUNTNAME="parisastorage"
-
-A=$RANDOM
-
-STORAGE_CONFIG=$(
-    az storage create --name 
-)
