@@ -1,5 +1,0 @@
-GET https://learn-apim-tekaris.azure-api.net/echo/resource?param1=sample HTTP/1.1
-Host: learn-apim-tekaris.azure-api.net
-Ocp-Apim-Subscription-Key: 5cae7128f8a34c59bafea681733f2b7b
-Ocp-Apim-Trace: true
-
