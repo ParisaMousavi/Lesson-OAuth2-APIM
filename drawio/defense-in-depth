@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T13:26:25.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gzUhYiaJrVICm1Xu-Hyv" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T13:28:26.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a6uTCNEYbAVgTg1ielCL" version="14.1.1" type="github">
   <diagram id="yOWyS6i5GJ87VD46SoxC" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,6 +25,9 @@
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-5" value="Perimeter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="190" y="230" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Zk7D6s0nXTAtqdFzt64O-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zk7D6s0nXTAtqdFzt64O-6" target="Zk7D6s0nXTAtqdFzt64O-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-6" value="Identity &amp;amp; Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="200" width="230" height="30" as="geometry" />
         </mxCell>
@@ -36,6 +39,9 @@
         </mxCell>
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-12" value="using:&lt;br&gt;- Virtual Private Network (VPN)&lt;br&gt;- VLAN for segmentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="252.5" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk7D6s0nXTAtqdFzt64O-14" value="using:&lt;br&gt;- Network Access Control&lt;br&gt;- Role-appropriate VLAN&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="192.5" width="280" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
