@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T13:23:52.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="DPh6kT72Chv9j-UqRSqO" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-10T13:25:12.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="a5dy4txbh-_OCEbulZ4m" version="14.1.1" type="github">
   <diagram id="yOWyS6i5GJ87VD46SoxC" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-3" value="Compute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="190" y="290" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Zk7D6s0nXTAtqdFzt64O-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zk7D6s0nXTAtqdFzt64O-4" target="Zk7D6s0nXTAtqdFzt64O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-4" value="Network" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="190" y="260" width="230" height="30" as="geometry" />
         </mxCell>
@@ -28,8 +31,11 @@
         <mxCell id="Zk7D6s0nXTAtqdFzt64O-7" value="Physical Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="190" y="170" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Zk7D6s0nXTAtqdFzt64O-10" value="e.g. HTTPS application layer encryption&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Zk7D6s0nXTAtqdFzt64O-10" value="e.g. using HTTPS application layer encryption&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="325" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk7D6s0nXTAtqdFzt64O-12" value="e.g. using Virtual Private Network (VPN)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="265" width="280" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
