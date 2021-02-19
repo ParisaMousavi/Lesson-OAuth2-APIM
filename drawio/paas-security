@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T23:41:52.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="RROwKk31LiIiIOXX4g2K" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-19T23:43:30.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="CLCng_8TkOUtmKph1Vax" version="14.4.2" type="github" pages="2">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,11 @@
         <mxCell id="WJaO2xR4krH2lQwHdqrQ-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Other services&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#00BEF2;" vertex="1" parent="1">
           <mxGeometry x="650" y="262" width="130" height="60" as="geometry" />
         </mxCell>
+        <UserObject label="Resources&lt;br style=&quot;font-size: 14px;&quot;&gt;https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet" link="https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet" id="WJaO2xR4krH2lQwHdqrQ-17">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontColor=#00BEF2;fontSize=14;" vertex="1" parent="1">
+            <mxGeometry x="-12" y="1040" width="712" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
