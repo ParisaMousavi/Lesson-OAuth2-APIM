@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T08:21:22.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rHoVHXc7wmrc2i9SaY00" version="14.4.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-02-20T08:47:29.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hfBgRT3jmA_9LT3f973w" version="14.4.2" type="github" pages="16">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g9RJpHSe3VU7VPiU1cmL" name="Azure Function App">
-    <mxGraphModel dx="2249" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-0" />
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-1" parent="dsuyJwCRGoEi3qbpeQWM-0" />
@@ -128,6 +128,9 @@
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-28" value=".&lt;br style=&quot;font-size: 40px;&quot;&gt;.&lt;br style=&quot;font-size: 40px;&quot;&gt;." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontSize=40;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
           <mxGeometry x="540" y="320" width="40" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="VDjpmiN_DEEJvjYVdKqJ-0" value="&lt;h1 id=&quot;tutorial-establish-azure-functions-private-site-access&quot; style=&quot;box-sizing: inherit; font-size: 2.25rem; margin: -10px 0px 0px; padding: 0px; font-weight: 600; outline-color: inherit; line-height: 1.3; overflow-wrap: break-word; word-break: break-word; color: rgb(23, 23, 23); font-family: &amp;quot;segoe ui&amp;quot;, segoeui, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;private site access&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;fontSize=40;fontColor=#000000;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="516" y="90" width="320" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -164,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RlaiRicl7m2oc-8gQvvI" name="Cybersecurity">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="94oHUUpsJuSOqrxJ3WnR-0" />
         <mxCell id="94oHUUpsJuSOqrxJ3WnR-1" parent="94oHUUpsJuSOqrxJ3WnR-0" />
