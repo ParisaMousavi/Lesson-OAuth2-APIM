@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T00:23:25.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="lo0cJGnpwwVmMfPlvDgO" version="14.4.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-02-20T08:17:01.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="x6uFEc7vOojdMyxK3ETj" version="14.4.2" type="github" pages="15">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
           <mxGeometry x="460" y="30" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-22" value="How does APIM work with private endpoint" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/API_Management.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
-          <mxGeometry x="490" y="-80" width="50" height="42" as="geometry" />
+          <mxGeometry x="448" y="-60" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-23" value="Azure Function App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Functions.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
           <mxGeometry x="398" y="200" width="50" height="46" as="geometry" />
