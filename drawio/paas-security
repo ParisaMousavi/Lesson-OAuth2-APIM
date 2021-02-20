@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T08:47:29.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hfBgRT3jmA_9LT3f973w" version="14.4.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2021-02-20T08:50:25.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="ujoanlLRx1kz2av2ponJ" version="14.4.2" type="github" pages="16">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,10 +111,10 @@
           <mxGeometry x="340" y="480" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-21" value="Private Endpoint can block internet accessibility" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
-          <mxGeometry x="460" y="30" width="30" height="30" as="geometry" />
+          <mxGeometry x="350" y="-170" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-22" value="How does APIM work with private endpoint" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/API_Management.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
-          <mxGeometry x="448" y="-60" width="50" height="42" as="geometry" />
+          <mxGeometry x="440" y="-240" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="s3SH-MSI6UeEu0JZjqw1-23" value="Azure Function App" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Functions.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
           <mxGeometry x="398" y="200" width="50" height="46" as="geometry" />
@@ -130,6 +130,15 @@
         </mxCell>
         <mxCell id="VDjpmiN_DEEJvjYVdKqJ-0" value="&lt;h1 id=&quot;tutorial-establish-azure-functions-private-site-access&quot; style=&quot;box-sizing: inherit; font-size: 2.25rem; margin: -10px 0px 0px; padding: 0px; font-weight: 600; outline-color: inherit; line-height: 1.3; overflow-wrap: break-word; word-break: break-word; color: rgb(23, 23, 23); font-family: &amp;quot;segoe ui&amp;quot;, segoeui, &amp;quot;helvetica neue&amp;quot;, helvetica, arial, sans-serif; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;private site access&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;fontSize=40;fontColor=#000000;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
           <mxGeometry x="516" y="90" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VDjpmiN_DEEJvjYVdKqJ-1" value="Azure Function" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Functions.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="540" y="-20" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VDjpmiN_DEEJvjYVdKqJ-2" value="VM" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine_feature;pointerEvents=1;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="614" y="-19" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VDjpmiN_DEEJvjYVdKqJ-3" value="AKS Cluster" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes_Services.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#F8CECC;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="684" y="-11" width="50" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
