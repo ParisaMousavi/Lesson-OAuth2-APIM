@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T00:00:37.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="pIsihqg2T4DOk05rkJ12" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-20T00:08:47.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="catwXA_WYHJAXOoXcwo-" version="14.4.2" type="github" pages="12">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,9 @@
         <mxCell id="WJaO2xR4krH2lQwHdqrQ-18" value="Private Endpoint can block internet accessibility" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="516" y="-110" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="39d_lmh4gvnPxxsSBpTX-1" value="How does APIM work with private endpoint" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/API_Management.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="-180" width="50" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -83,6 +86,86 @@
       <root>
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-0" />
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-1" parent="dsuyJwCRGoEi3qbpeQWM-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W0XpHLp6Vmig25RbzljI" name="APIM">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lcLNInxIMyUO56mDMIWB-0" />
+        <mxCell id="lcLNInxIMyUO56mDMIWB-1" parent="lcLNInxIMyUO56mDMIWB-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nq6GhjpPhBZWXvyfT_t2" name="CosmosDB">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CXDnKC3d1Vq3pb5jrDGI-0" />
+        <mxCell id="CXDnKC3d1Vq3pb5jrDGI-1" parent="CXDnKC3d1Vq3pb5jrDGI-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cI0M7VKoz21dbeXy1Hep" name="KeyVault">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fHxDb-VHvk0pUNpD7L3F-0" />
+        <mxCell id="fHxDb-VHvk0pUNpD7L3F-1" parent="fHxDb-VHvk0pUNpD7L3F-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qRtKzqr_xc8sfNp0aJ2i" name="VNet">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CpGWZZlH08-lg3nzPXMG-0" />
+        <mxCell id="CpGWZZlH08-lg3nzPXMG-1" parent="CpGWZZlH08-lg3nzPXMG-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2eAHFUB5bMgVRUtyQFo2" name="Monitor">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="_RTGmuTjT9xCuteBfxN8-0" />
+        <mxCell id="_RTGmuTjT9xCuteBfxN8-1" parent="_RTGmuTjT9xCuteBfxN8-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Snypti6M67riZ-g5y59s" name="AppInsight">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="uD5IcpZP67oTYHwrVp86-0" />
+        <mxCell id="uD5IcpZP67oTYHwrVp86-1" parent="uD5IcpZP67oTYHwrVp86-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4N7gCN872BR92vsCwZgp" name="EventHub">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="zVYtMds1tw6R8qnLBcr5-0" />
+        <mxCell id="zVYtMds1tw6R8qnLBcr5-1" parent="zVYtMds1tw6R8qnLBcr5-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5P2wlp6ixSM-pl9ZTUWp" name="EventGrid">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="afmfM-rW7sp1CcY5-47Q-0" />
+        <mxCell id="afmfM-rW7sp1CcY5-47Q-1" parent="afmfM-rW7sp1CcY5-47Q-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="W0XlirV9SiBAHhvTWjZV" name="Storage">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Llpr0COgEY5Ku-fZK-Lp-0" />
+        <mxCell id="Llpr0COgEY5Ku-fZK-Lp-1" parent="Llpr0COgEY5Ku-fZK-Lp-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7fwh6ThTQDm9_jdLanQZ" name="VNet">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="d2jL_ZYSVxaLqPrMBNaM-0" />
+        <mxCell id="d2jL_ZYSVxaLqPrMBNaM-1" parent="d2jL_ZYSVxaLqPrMBNaM-0" />
       </root>
     </mxGraphModel>
   </diagram>
