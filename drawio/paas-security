@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T18:39:25.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rK--DIeBVxH1rvVqTo8l" version="14.4.2" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2021-02-22T18:42:36.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="cbKB2V-aI-StFDtfAaSP" version="14.4.2" type="github" pages="17">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
         <mxCell id="FndPV_kBWZMQhH7kJF8--22" value="Maximize Performance" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/app-user-interface-5/48/dashboard-128.png" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
           <mxGeometry x="470" y="380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Enterprise flash&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Enterprise&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Premium&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Basic&lt;/b&gt;: ooo&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Enterprise flash&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Enterprise&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Premium&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Basic&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;C0 -&amp;gt;&amp;nbsp;&lt;/b&gt;caches are for simple dev/test scenarios and have shared CPU core, and limit memory, and noisy neighbor.&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
           <mxGeometry x="580" y="160" width="380" height="330" as="geometry" />
         </mxCell>
       </root>
