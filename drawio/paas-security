@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T12:34:24.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="UlQuDVjV-nvJUP2yIuDe" version="14.4.2" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2021-02-24T12:35:43.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="yZ3Y2QXNtKPbFhXYILyy" version="14.4.2" type="github" pages="18">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,6 +300,12 @@
         </mxCell>
         <mxCell id="aT4Z-nLnDr6cQU3gQ0ez-8" value="???" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aT4Z-nLnDr6cQU3gQ0ez-1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aT4Z-nLnDr6cQU3gQ0ez-10" value="Deployment tools are on cloud" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="aT4Z-nLnDr6cQU3gQ0ez-1">
+          <mxGeometry x="420" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aT4Z-nLnDr6cQU3gQ0ez-11" value="Deployment tools are on prem" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="aT4Z-nLnDr6cQU3gQ0ez-1">
+          <mxGeometry x="170" y="40" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
