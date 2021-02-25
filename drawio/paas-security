@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:23:19.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ybTXbFy5VMSxi2bdUzGi" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T07:24:01.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="J5IXFDr2Nmqt_ENr-v_N" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="1609" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oa7saOLofFdC9JGOJa2K" name="Rule">
-    <mxGraphModel dx="1117" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HHr-SqFosoOCQ8azJTtg-0" />
         <mxCell id="HHr-SqFosoOCQ8azJTtg-1" parent="HHr-SqFosoOCQ8azJTtg-0" />
@@ -372,7 +372,7 @@
         <mxCell id="HHr-SqFosoOCQ8azJTtg-4" value="Subnet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;dashed=1;fontColor=#00BEF2;verticalAlign=bottom;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="70" y="230" width="580" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-11" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-5" edge="1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-11" value="Doesn&#39;t have &lt;br&gt;public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115" y="610" as="targetPoint" />
           </mxGeometry>
