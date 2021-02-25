@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T15:29:02.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="JVBmD3YIrjm3F2GtetWc" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T15:32:07.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="sI-TcytoeXl4_zrKY0dM" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LYTGEXn9h5o_fhrFBNo" name="RedisCache">
-    <mxGraphModel dx="1396" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-0" />
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-1" parent="A8hLut3KCCIqX9rdZ4cn-0" />
@@ -160,17 +160,14 @@
         <mxCell id="FndPV_kBWZMQhH7kJF8--22" value="Maximize Performance" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/app-user-interface-5/48/dashboard-128.png" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="740" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;- Data (using cache-aside for dbs)&lt;/div&gt;&lt;div&gt;- Content cache (for static contents)&lt;/div&gt;&lt;div&gt;- Session store (user session info/ cookies)&lt;/div&gt;&lt;div&gt;- Job/Message queue/broker (by deffering a called task)&lt;/div&gt;&lt;div&gt;- Distributed transaction&lt;/div&gt;&lt;div&gt;- Can be used by&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - SQL Server&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Cosmos DB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - API Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- DNS&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &amp;lt;redis-name&amp;gt;.redis.cache.windows.net&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &amp;lt;redis-name&amp;gt;.redisenterprise.cache.azure.net&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
-          <mxGeometry x="910" y="160" width="380" height="330" as="geometry" />
+        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;- Data (using cache-aside for dbs)&lt;/div&gt;&lt;div&gt;- Content cache (for static contents)&lt;/div&gt;&lt;div&gt;- Session store (user session info/ cookies)&lt;/div&gt;&lt;div&gt;- Job/Message queue/broker (by deffering a called task)&lt;/div&gt;&lt;div&gt;- Distributed transaction&lt;/div&gt;&lt;div&gt;- Can be used by&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - SQL Server&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Cosmos DB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - API Management&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- DNS&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &amp;lt;redis-name&amp;gt;.redis.cache.windows.net&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &amp;lt;redis-name&amp;gt;.redisenterprise.cache.azure.net&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Development&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - create redis&amp;nbsp;&lt;span&gt;rather near to application than&amp;nbsp;&lt;/span&gt;&lt;span&gt;to the original data source&amp;nbsp;&lt;/span&gt;&lt;span&gt;to use Microsoft Backbone&lt;/span&gt;&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
+          <mxGeometry x="850" y="160" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="p3JdCXQDiM8yKFqZ-9qN-16" value="Async data replication" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;exitX=1.024;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="A8hLut3KCCIqX9rdZ4cn-1" source="ZrXEOWchpXH8hDiI9tgc-3" target="p3JdCXQDiM8yKFqZ-9qN-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZrXEOWchpXH8hDiI9tgc-3" value="Primary&lt;br&gt;node" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Virtual_Machine_2.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
           <mxGeometry x="389" y="360" width="50" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="ZrXEOWchpXH8hDiI9tgc-0" value="rather near to application than&lt;br&gt;&amp;nbsp;to the original data source&lt;br&gt;to use Microsoft Backbone" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
-          <mxGeometry x="720" y="180" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ZrXEOWchpXH8hDiI9tgc-4" value="All as managed service" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;fontColor=#FF0000;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
           <mxGeometry x="340" y="520" width="660" height="290" as="geometry" />
@@ -324,6 +321,12 @@
         </mxCell>
         <mxCell id="p3JdCXQDiM8yKFqZ-9qN-24" value="TLS/Non-TLS&lt;br style=&quot;font-size: 10px;&quot;&gt;Port" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=none;fontSize=10;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
           <mxGeometry x="674" y="327.6" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3JdCXQDiM8yKFqZ-9qN-26" value="Not visible infrastructure (managed by MS)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;align=left;strokeColor=#6c8ebf;fillColor=none;verticalAlign=top;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+          <mxGeometry x="370" y="240" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrXEOWchpXH8hDiI9tgc-0" value="Azure cache for Redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+          <mxGeometry x="674" y="210" width="50" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
