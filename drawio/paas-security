@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T09:26:09.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="85rqCx5Pefu2KfHjSG8k" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T09:39:41.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="99KbeZ9PQud3-wJnOPJt" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LYTGEXn9h5o_fhrFBNo" name="RedisCache">
-    <mxGraphModel dx="2249" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-0" />
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-1" parent="A8hLut3KCCIqX9rdZ4cn-0" />
@@ -160,7 +160,7 @@
         <mxCell id="FndPV_kBWZMQhH7kJF8--22" value="Maximize Performance" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/app-user-interface-5/48/dashboard-128.png" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="470" y="370" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;&lt;b&gt;- Data or content cache&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Session store&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Message broker&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;- Can be used by&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; - SQL Server&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; - Cosmos DB&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; - API Management&lt;/b&gt;&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;- Data (using cache-aside for dbs)&lt;/div&gt;&lt;div&gt;- Content cache (for static contents)&lt;/div&gt;&lt;div&gt;- Session store (user session info/ cookies)&lt;/div&gt;&lt;div&gt;- Job/Message queue/broker (by deffering a called task)&lt;/div&gt;&lt;div&gt;- Distributed transaction&lt;/div&gt;&lt;div&gt;- Can be used by&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - SQL Server&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Cosmos DB&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - API Management&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="580" y="160" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ZrXEOWchpXH8hDiI9tgc-3" value="server" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Virtual_Machine_2.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
@@ -243,6 +243,9 @@
         </mxCell>
         <mxCell id="ZrXEOWchpXH8hDiI9tgc-24" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="ZrXEOWchpXH8hDiI9tgc-21">
           <mxGeometry x="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrXEOWchpXH8hDiI9tgc-30" value="Server is managed &amp;amp; not seeable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+          <mxGeometry x="344" y="230" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
