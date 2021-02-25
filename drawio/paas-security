@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T14:42:38.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="cesdfV-jvF18CL6maCGU" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T14:43:47.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Jncnzv5fld5Pi4Dz-Hhl" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -259,7 +259,7 @@
         <mxCell id="p3JdCXQDiM8yKFqZ-9qN-4" value="Volatile memory (DRAM)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="ZrXEOWchpXH8hDiI9tgc-17">
           <mxGeometry x="320" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p3JdCXQDiM8yKFqZ-9qN-10" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="ZrXEOWchpXH8hDiI9tgc-17">
+        <mxCell id="p3JdCXQDiM8yKFqZ-9qN-10" value="- Market place offer&lt;br&gt;- Market place offer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="ZrXEOWchpXH8hDiI9tgc-17">
           <mxGeometry x="490" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZrXEOWchpXH8hDiI9tgc-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZrXEOWchpXH8hDiI9tgc-4">
