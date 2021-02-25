@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T18:54:28.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="1gwZosfti1oTHWj33Aqd" version="14.4.2" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T04:26:23.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="QIti2kL5dQXJZqeO8i33" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,48 +363,48 @@
       <root>
         <mxCell id="HHr-SqFosoOCQ8azJTtg-0" />
         <mxCell id="HHr-SqFosoOCQ8azJTtg-1" parent="HHr-SqFosoOCQ8azJTtg-0" />
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="50" y="210" width="620" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.virtual_network;pointerEvents=1;fillColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.virtual_network;pointerEvents=1;fillColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="600" y="507" width="50" height="27.500000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-4" value="Subnet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;dashed=1;fontColor=#00BEF2;verticalAlign=bottom;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-4" value="Subnet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;dashed=1;fontColor=#00BEF2;verticalAlign=bottom;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="70" y="230" width="580" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-11" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" edge="1" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-5">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-11" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="90" y="430" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-10" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=oval;endFill=1;horizontal=0;" edge="1" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-6">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-10" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=oval;endFill=1;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/API_Management.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/API_Management.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="170" y="430" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-13" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" edge="1" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-12">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-13" value="Public endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="262.6650000000002" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;dashed=1;labelBackgroundColor=none;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Function_Apps.svg;dashed=1;labelBackgroundColor=none;strokeColor=#00BEF2;fillColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="240" y="431" width="45.33" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-15" value="Public Endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" edge="1" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-14">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-15" value="Public Endpoint" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;fontColor=#000000;horizontal=0;" parent="HHr-SqFosoOCQ8azJTtg-1" source="HHr-SqFosoOCQ8azJTtg-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHr-SqFosoOCQ8azJTtg-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;dashed=1;labelBackgroundColor=none;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="HHr-SqFosoOCQ8azJTtg-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;dashed=1;labelBackgroundColor=none;strokeColor=#00BEF2;fillColor=#00BEF2;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="310" y="436" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="r9Iw0tFoGzU6BX1li0q3-0" value="Private Endpoint can block internet accessibility" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
+        <mxCell id="r9Iw0tFoGzU6BX1li0q3-0" value="Private Endpoint can block internet accessibility" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" parent="HHr-SqFosoOCQ8azJTtg-1" vertex="1">
           <mxGeometry x="360" y="534.5" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
