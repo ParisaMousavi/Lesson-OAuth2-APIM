@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T07:26:22.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="3YuC-tSayqhzIxDQvhP2" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-25T09:14:06.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="vIKPOx-vOalSAPQ0fKAT" version="14.4.3" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="1609" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,27 +144,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3LYTGEXn9h5o_fhrFBNo" name="RedisCache">
-    <mxGraphModel dx="2012" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-0" />
         <mxCell id="A8hLut3KCCIqX9rdZ4cn-1" parent="A8hLut3KCCIqX9rdZ4cn-0" />
-        <mxCell id="FndPV_kBWZMQhH7kJF8--1" value="Azure cache for Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--1" value="Azure cache for Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="340" y="160" width="166" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--3" value="&lt;h1&gt;Secure Service Infrastructure&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--3" value="&lt;h1&gt;Secure Service Infrastructure&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fontColor=#333333;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="-50" y="160" width="380" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--18" value="rather near to application than&lt;br&gt;&amp;nbsp;to the original data source" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_including_Redis.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
-          <mxGeometry x="398" y="270" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--20" value="Cost-effectiveness" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Money-Graph-128.png" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--20" value="Cost-effectiveness" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Money-Graph-128.png" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="475" y="180" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--22" value="Maximize Performance" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/app-user-interface-5/48/dashboard-128.png" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--22" value="Maximize Performance" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/app-user-interface-5/48/dashboard-128.png" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="470" y="370" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Enterprise flash&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Enterprise&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Premium&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Basic&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;C0 -&amp;gt;&amp;nbsp;&lt;/b&gt;caches are for simple dev/test scenarios and have shared CPU core, and limit memory, and noisy neighbor.&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+        <mxCell id="FndPV_kBWZMQhH7kJF8--25" value="&lt;h1&gt;Different scenarios&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Enterprise flash&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Enterprise&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Premium&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Standard&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Basic&lt;/b&gt;: ooo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;C0 -&amp;gt;&amp;nbsp;&lt;/b&gt;caches are for simple dev/test scenarios and have shared CPU core, and limit memory, and noisy neighbor.&lt;/div&gt;" style="text;html=1;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#6c8ebf;" parent="A8hLut3KCCIqX9rdZ4cn-1" vertex="1">
           <mxGeometry x="580" y="160" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrXEOWchpXH8hDiI9tgc-3" value="server" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Virtual_Machine_2.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+          <mxGeometry x="364" y="270" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrXEOWchpXH8hDiI9tgc-0" value="rather near to application than&lt;br&gt;&amp;nbsp;to the original data source" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="A8hLut3KCCIqX9rdZ4cn-1">
+          <mxGeometry x="398" y="290" width="50" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
