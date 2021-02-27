@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T16:58:36.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="9Te1v6kaAHviKu_QmYPB" version="14.4.3" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-02-27T20:20:08.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="mhAhgJ7ShFwAk48C8N-w" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="2249" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -761,6 +761,14 @@
         <mxCell id="4x-ROnX3TgS7Tdayabh2-2" value="Is it possible to access storage with service endpoint via Redis?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="HHr-SqFosoOCQ8azJTtg-1">
           <mxGeometry x="-80" y="490.75" width="180" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DhGHncBv50eS7bTF0dGA" name="EventHub">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-0" />
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-1" parent="1E4agJfX4F32Q-oe6_1k-0" />
       </root>
     </mxGraphModel>
   </diagram>
