@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-27T20:43:06.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="5HnTSHSsDP_ELag_FI5U" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-02-27T21:19:43.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="qP_m9Pgp7irUy549Nz7M" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -845,6 +845,51 @@
         </mxCell>
         <mxCell id="1E4agJfX4F32Q-oe6_1k-26" value="Event Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="75" y="920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-29" value="Partition" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="80" y="1080" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-30" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="90" y="1105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1E4agJfX4F32Q-oe6_1k-1" source="1E4agJfX4F32Q-oe6_1k-29" target="1E4agJfX4F32Q-oe6_1k-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-32" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="220" y="1105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-33" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="90" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-34" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="220" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-35" value="Partition" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="360" y="1080" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-36" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="370" y="1105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" source="1E4agJfX4F32Q-oe6_1k-35" target="1E4agJfX4F32Q-oe6_1k-35" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-38" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="500" y="1105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-39" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="370" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-40" value="Segment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="500" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-41" value="Services with Event Hub" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="40" y="90" width="880" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-42" value="Event ingestor" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="40" y="600" width="880" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1E4agJfX4F32Q-oe6_1k-43" value="Event Hub internal structure" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="40" y="1000" width="880" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
