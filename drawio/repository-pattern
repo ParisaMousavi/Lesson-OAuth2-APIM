@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T09:46:27.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="b4rP4CmTLu1LyPW3DGl1" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T09:48:08.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="tvqDC8WuuSc1PpkanNXD" version="14.4.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="repository-pattern">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
         <mxCell id="8q61w2pf3WsNj8iLztEb-70" value="- Message Broker System&lt;br&gt;- Utilization of multiple communication protocols.&lt;br&gt;- Different data contracts&lt;br&gt;- Higher security&lt;br&gt;- Hybrid solutions&lt;br&gt;- Built on top of a dedicated messaging infrastructure." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
           <mxGeometry x="254" width="252" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="- Support multiple subscriner&lt;br&gt;- By pushing to queue multiple components can be triggered.&lt;br&gt;-&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
+        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="- Support multiple subscriner&lt;br&gt;- By pushing to queue multiple components can be triggered.&lt;br&gt;- Support different subscriber&lt;br&gt;- Each subscription receives its own copy of the message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
           <mxGeometry x="506" width="254" height="125" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-77" value="Triggered" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;fontSize=12;fontColor=#000000;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-72" target="8q61w2pf3WsNj8iLztEb-74">
