@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T10:53:20.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="9baXtneja7Ag2uiUIExL" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T11:25:50.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Km6KK3L-4-RcgmXNyX3H" version="14.4.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="repository-pattern">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -425,6 +425,9 @@
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-131" value="track processing the message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-130">
           <mxGeometry width="129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-144" value="&lt;h1&gt;Event Hub vs. Event Grid&lt;/h1&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="40" y="3040" width="760" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
