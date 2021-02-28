@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T09:49:01.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="8L7r_qmqt27Z0pejmDx2" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T10:04:06.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="K7rZIJ167IrCBmHqodJK" version="14.4.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="repository-pattern">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,7 +230,7 @@
           <mxGeometry x="170" y="270" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-63" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
-          <mxGeometry x="40" y="1520" width="760" height="195" as="geometry" />
+          <mxGeometry x="40" y="1520" width="760" height="220" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-64" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-63">
           <mxGeometry width="760" height="70" as="geometry" />
@@ -245,16 +245,16 @@
           <mxGeometry x="506" width="254" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-68" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-63">
-          <mxGeometry y="70" width="760" height="125" as="geometry" />
+          <mxGeometry y="70" width="760" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="8q61w2pf3WsNj8iLztEb-69" value="- Large number of messages&lt;br&gt;- Secure access&lt;br&gt;- REST-based interface&lt;br&gt;- Limited by the storage capacity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry width="254" height="125" as="geometry" />
+        <mxCell id="8q61w2pf3WsNj8iLztEb-69" value="- Large number of messages&lt;br style=&quot;font-size: 15px;&quot;&gt;- Secure access&lt;br style=&quot;font-size: 15px;&quot;&gt;- REST-based interface&lt;br style=&quot;font-size: 15px;&quot;&gt;- Limited by the storage capacity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
+          <mxGeometry width="254" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="8q61w2pf3WsNj8iLztEb-70" value="- Message Broker System&lt;br&gt;- Utilization of multiple communication protocols.&lt;br&gt;- Different data contracts&lt;br&gt;- Higher security&lt;br&gt;- Hybrid solutions&lt;br&gt;- Built on top of a dedicated messaging infrastructure." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry x="254" width="252" height="125" as="geometry" />
+        <mxCell id="8q61w2pf3WsNj8iLztEb-70" value="- Message Broker System&lt;br style=&quot;font-size: 14px;&quot;&gt;- Utilization of multiple communication protocols.&lt;br style=&quot;font-size: 14px;&quot;&gt;- Different data contracts&lt;br style=&quot;font-size: 14px;&quot;&gt;- Higher security&lt;br style=&quot;font-size: 14px;&quot;&gt;- Hybrid solutions&lt;br style=&quot;font-size: 14px;&quot;&gt;- Built on top of a dedicated messaging infrastructure." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;fontSize=14;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
+          <mxGeometry x="254" width="252" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="- Support multiple subscriner&lt;br&gt;- By pushing to queue multiple components can be triggered.&lt;br&gt;- Support different subscriber&lt;br&gt;- Each subscription receives its own copy of the message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry x="506" width="254" height="125" as="geometry" />
+        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="- Support multiple subscriner&lt;br style=&quot;font-size: 14px;&quot;&gt;- By pushing to queue multiple components can be triggered.&lt;br style=&quot;font-size: 14px;&quot;&gt;- Support different subscriber&lt;br style=&quot;font-size: 14px;&quot;&gt;- Each subscription receives its own copy of the message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;fontSize=14;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
+          <mxGeometry x="506" width="254" height="150" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-77" value="Triggered" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;fontSize=12;fontColor=#000000;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-72" target="8q61w2pf3WsNj8iLztEb-74">
           <mxGeometry relative="1" as="geometry" />
@@ -285,6 +285,36 @@
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-82" value="&lt;h1&gt;Benefits&lt;/h1&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
           <mxGeometry x="40" y="1930" width="760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-89" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="43" y="2010" width="757" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-90" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-89">
+          <mxGeometry width="757" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-91" value="Increase reliability" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="8q61w2pf3WsNj8iLztEb-90">
+          <mxGeometry width="177" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-92" value="- Queue is a temporary storage&lt;br style=&quot;font-size: 14px;&quot;&gt;- Message can wait in queue until a destination component is ready to process it." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;align=left;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-90">
+          <mxGeometry x="177" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-93" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-89">
+          <mxGeometry y="40" width="757" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-94" value="Message delivery quarantees" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-93">
+          <mxGeometry width="177" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-95" value="- Message delivered guaranteed from source to destination&lt;br style=&quot;font-size: 14px&quot;&gt;- Different guarantee types&lt;br style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; - At-Least-Once-Delivery (if we have multi-instance of one app running e.g. AKS solutions)&lt;br style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; - At-Most-Once-Delivery (automatic duplication detection)&lt;br style=&quot;font-size: 14px&quot;&gt;&amp;nbsp; - First-In-First-Out (messages usually leave the queue in the same order in which they were added, but you should consider whether this delivery is guaranteed. If your distributed application requires that messages are processed in precisely the correct order, you must choose a queue system that includes a FIFO guarantee)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;align=left;fontSize=14;strokeColor=#82b366;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-93">
+          <mxGeometry x="177" width="580" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-96" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-89">
+          <mxGeometry y="190" width="757" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-97" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-96">
+          <mxGeometry width="177" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-96">
+          <mxGeometry x="177" width="580" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
