@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T09:39:02.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="pBJaUPFMHL_4SW8JxnYH" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T09:45:28.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="R5I8OLupl1vNSshNgPLh" version="14.4.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="repository-pattern">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,31 +230,46 @@
           <mxGeometry x="170" y="270" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-63" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
-          <mxGeometry x="43" y="1520" width="757" height="195" as="geometry" />
+          <mxGeometry x="40" y="1520" width="760" height="195" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-64" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-63">
-          <mxGeometry width="757" height="70" as="geometry" />
+          <mxGeometry width="760" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-65" value="Storage Queue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-64">
-          <mxGeometry width="253" height="70" as="geometry" />
+          <mxGeometry width="254" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-66" value="Service Bus Queue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-64">
-          <mxGeometry x="253" width="251" height="70" as="geometry" />
+          <mxGeometry x="254" width="252" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-67" value="Service Bus Topic" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-64">
-          <mxGeometry x="504" width="253" height="70" as="geometry" />
+          <mxGeometry x="506" width="254" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-68" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-63">
-          <mxGeometry y="70" width="757" height="125" as="geometry" />
+          <mxGeometry y="70" width="760" height="125" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-69" value="- Large number of messages&lt;br&gt;- Secure access&lt;br&gt;- REST-based interface&lt;br&gt;- Limited by the storage capacity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry width="253" height="125" as="geometry" />
+          <mxGeometry width="254" height="125" as="geometry" />
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-70" value="- Message Broker System&lt;br&gt;- Utilization of multiple communication protocols.&lt;br&gt;- Different data contracts&lt;br&gt;- Higher security&lt;br&gt;- Hybrid solutions&lt;br&gt;- Built on top of a dedicated messaging infrastructure." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry x="253" width="251" height="125" as="geometry" />
+          <mxGeometry x="254" width="252" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
-          <mxGeometry x="504" width="253" height="125" as="geometry" />
+        <mxCell id="8q61w2pf3WsNj8iLztEb-71" value="- Support multiple subscriner&lt;br&gt;- By pushing to queue multiple components can be triggered.&lt;br&gt;-&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;verticalAlign=top;align=left;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-68">
+          <mxGeometry x="506" width="254" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-77" value="Triggered" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;fontSize=12;fontColor=#000000;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-72" target="8q61w2pf3WsNj8iLztEb-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-72" value="Subscription" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=center;strokeColor=#6c8ebf;fillColor=#DAE8FC;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="677" y="1751.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-75" value="Push" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;fontSize=12;fontColor=#000000;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-73" target="8q61w2pf3WsNj8iLztEb-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-73" value="Publisher" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="40" y="1751.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-74" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.azure.queue_generic;labelBackgroundColor=none;fontSize=12;fillColor=#dae8fc;strokeColor=#83ADE8;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="335" y="1753.75" width="185" height="55.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
