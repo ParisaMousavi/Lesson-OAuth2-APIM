@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T08:46:02.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="fRpG195YMFIg1MMlyETr" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T08:53:22.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="uAGEFtMCjqYlCqBeB0nx" version="14.4.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="repository-pattern">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,36 @@
         </mxCell>
         <mxCell id="8q61w2pf3WsNj8iLztEb-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
           <mxGeometry x="233" y="264" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-13" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="152" y="420" width="38" height="63.33" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-14" target="8q61w2pf3WsNj8iLztEb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-14" value="Web API&lt;br&gt;Azure App Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Services.svg;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="340" y="446.66" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-15" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="530" y="439.33" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.492;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8q61w2pf3WsNj8iLztEb-1" source="8q61w2pf3WsNj8iLztEb-16" target="8q61w2pf3WsNj8iLztEb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-16" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="160" y="440" width="38" height="63.33" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-17" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="176" y="460" width="38" height="63.33" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-20" value="&lt;h1&gt;Simple architecture&lt;/h1&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;verticalAlign=middle;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="40" y="340" width="760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-25" value="Issue: some comments are not posted." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="120" y="570" width="610" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8q61w2pf3WsNj8iLztEb-26" value="Issue: in high-demand the big files are not successfuly updated." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="8q61w2pf3WsNj8iLztEb-1">
+          <mxGeometry x="120" y="610" width="610" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
