@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T21:34:40.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iPQJpsajz9yiryzckETg" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-02T21:37:00.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="JQTkKOv2GCvfARzLXD7Q" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1944" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -932,8 +932,8 @@
         <mxCell id="Kbafo0BqD5iClNfNTcgK-3" value="Trusted services" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="165" y="1692" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Kbafo0BqD5iClNfNTcgK-5" value="- Event Grid&lt;br&gt;- Monitor&lt;br&gt;- Stream Analytics&lt;br&gt;- IoT Hub" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
-          <mxGeometry x="165" y="1758" width="140" height="72" as="geometry" />
+        <mxCell id="Kbafo0BqD5iClNfNTcgK-5" value="- Event Grid&lt;br&gt;- Monitor read/write specially for diagnostics&lt;br&gt;- Stream Analytics&lt;br&gt;- IoT Hub" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="165" y="1758" width="275" height="72" as="geometry" />
         </mxCell>
         <mxCell id="Kbafo0BqD5iClNfNTcgK-6" value="By setting IP Address in Firewall&lt;br&gt;setting on the namespace the public&lt;br&gt;endpoint is not accessible anymore&lt;br&gt;even without Vnet integration." style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="550" y="1370" width="40" height="40" as="geometry" />
