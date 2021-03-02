@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T21:33:31.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="wbtbs8F0VDfthmn84yD4" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-02T21:34:40.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iPQJpsajz9yiryzckETg" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1944" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -765,7 +765,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DhGHncBv50eS7bTF0dGA" name="EventHub">
-    <mxGraphModel dx="1303" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1E4agJfX4F32Q-oe6_1k-0" />
         <mxCell id="1E4agJfX4F32Q-oe6_1k-1" parent="1E4agJfX4F32Q-oe6_1k-0" />
@@ -903,7 +903,7 @@
         <mxCell id="wkoLq0qj7-gSCK-SwoOH-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.virtual_network;pointerEvents=1;fillColor=#00BEF2;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="392" y="1614" width="50" height="27.500000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="MKw8OdXa45b1_FdXmxKx-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1E4agJfX4F32Q-oe6_1k-1" source="wkoLq0qj7-gSCK-SwoOH-4" target="MKw8OdXa45b1_FdXmxKx-0">
+        <mxCell id="MKw8OdXa45b1_FdXmxKx-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1E4agJfX4F32Q-oe6_1k-1" source="wkoLq0qj7-gSCK-SwoOH-4" target="MKw8OdXa45b1_FdXmxKx-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wkoLq0qj7-gSCK-SwoOH-4" value="Event Hub&lt;br&gt;Cluster/&lt;br&gt;Dedicated" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Hub_Clusters.svg;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
@@ -916,13 +916,13 @@
           <mxGeometry x="22.269999999999996" y="1500" width="155.46" height="172" as="geometry" />
         </mxCell>
         <mxCell id="MKw8OdXa45b1_FdXmxKx-0" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_globe.svg;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
-          <mxGeometry x="255" y="1320" width="50" height="50" as="geometry" />
+          <mxGeometry x="200" y="1320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Kbafo0BqD5iClNfNTcgK-0" value="With Vnet integration the &lt;br&gt;public endpoint is not accessible&amp;nbsp;&lt;br&gt;from internet anymore." style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=left;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="310" y="1380" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kbafo0BqD5iClNfNTcgK-2" value="With service endpoint &lt;br&gt;the public endpoint is accessible&amp;nbsp;&lt;br&gt;but only for IPs mentioned in Firewall&amp;nbsp;" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=right;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
-          <mxGeometry x="220" y="1380" width="40" height="40" as="geometry" />
+          <mxGeometry x="155" y="1380" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Kbafo0BqD5iClNfNTcgK-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1E4agJfX4F32Q-oe6_1k-1" source="Kbafo0BqD5iClNfNTcgK-3" target="wkoLq0qj7-gSCK-SwoOH-4">
           <mxGeometry relative="1" as="geometry">
