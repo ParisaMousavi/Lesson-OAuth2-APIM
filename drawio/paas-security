@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T20:57:48.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="LHvRfxEya7o_Toqbtwme" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-02T21:04:27.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="B3o1aZXlpAkSCSVoq2_1" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1609" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -929,6 +929,12 @@
         </mxCell>
         <mxCell id="Kbafo0BqD5iClNfNTcgK-2" value="With service endpoint &lt;br&gt;the public endpoint is accessible&amp;nbsp;&lt;br&gt;but only for IPs mentioned in Firewall&amp;nbsp;" style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=right;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="220" y="1380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbafo0BqD5iClNfNTcgK-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.8;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1E4agJfX4F32Q-oe6_1k-1" source="Kbafo0BqD5iClNfNTcgK-3" target="wkoLq0qj7-gSCK-SwoOH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kbafo0BqD5iClNfNTcgK-3" value="Trusted services" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
+          <mxGeometry x="491" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
