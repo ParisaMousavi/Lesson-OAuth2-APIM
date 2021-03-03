@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T14:59:32.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="vHFVoj8C6AoFPBZyaP1o" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-03T17:16:17.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="B9ySIUDTw6mDciuKwiSu" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -523,7 +523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nq6GhjpPhBZWXvyfT_t2" name="CosmosDB">
-    <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CXDnKC3d1Vq3pb5jrDGI-0" />
         <mxCell id="CXDnKC3d1Vq3pb5jrDGI-1" parent="CXDnKC3d1Vq3pb5jrDGI-0" />
@@ -534,7 +534,7 @@
           <mxGeometry x="-111" y="255" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="00BzPNVfI4aL-y0sHqxD-2" value="&lt;h1&gt;Secure Data Encryption&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#d6b656;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
-          <mxGeometry x="559" y="255" width="380" height="330" as="geometry" />
+          <mxGeometry x="450" y="255" width="380" height="330" as="geometry" />
         </mxCell>
         <mxCell id="00BzPNVfI4aL-y0sHqxD-3" value="&lt;h1&gt;Secure Public Endpoint&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#b85450;fillColor=#F8CECC;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="-111" y="-75" width="380" height="330" as="geometry" />
@@ -546,7 +546,7 @@
           <mxGeometry x="330" y="380" width="70" height="120" as="geometry" />
         </mxCell>
         <mxCell id="00BzPNVfI4aL-y0sHqxD-6" value="CosmosDB&lt;br&gt;Container&lt;br&gt;Unit of scalability -&amp;gt; TU and Storage" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
-          <mxGeometry x="280" y="592" width="160" height="70" as="geometry" />
+          <mxGeometry x="280" y="594" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="00BzPNVfI4aL-y0sHqxD-7" value="P1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="280" y="672" width="40" height="40" as="geometry" />
