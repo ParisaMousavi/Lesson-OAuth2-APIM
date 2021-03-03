@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T14:57:26.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="hRR8OAOASJ72kK42Uwns" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-03T14:59:32.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="vHFVoj8C6AoFPBZyaP1o" version="14.4.3" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -545,23 +545,23 @@
         <mxCell id="00BzPNVfI4aL-y0sHqxD-5" value="SQL&lt;br&gt;MongoDB&lt;br&gt;Cassandra&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="330" y="380" width="70" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-6" value="CosmosDB&lt;br&gt;Container&lt;br&gt;Unit of scalability -&amp;gt; TU and Storage" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-6" value="CosmosDB&lt;br&gt;Container&lt;br&gt;Unit of scalability -&amp;gt; TU and Storage" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="280" y="592" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-7" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-7" value="P1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="280" y="672" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-8" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-8" value="P2" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="320" y="672" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-9" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-9" value="P3" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="360" y="672" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-10" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-10" value="P4" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
           <mxGeometry x="400" y="672" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="00BzPNVfI4aL-y0sHqxD-11" value="Container partitioned horizontally&lt;br&gt;This is replicated across regions" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
-          <mxGeometry x="89" y="672" width="180" height="40" as="geometry" />
+        <mxCell id="00BzPNVfI4aL-y0sHqxD-11" value="Container partitioned horizontally&lt;br&gt;This is replicated across regions&lt;br&gt;Logical partition keys are distributed across logical partitions based on partition key." style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="CXDnKC3d1Vq3pb5jrDGI-1">
+          <mxGeometry x="-120" y="594" width="389" height="126" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
