@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T11:45:37.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="QQbJpY8O-jRSOrJCAxlt" version="14.4.2" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-03-04T11:58:34.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="XYbcrNojtbHyRbWBDOuY" version="14.4.2" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -704,11 +704,26 @@
         <mxCell id="4P4vj4njet90BGzfZDl3-6" value="Event Grid" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Domains.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
           <mxGeometry x="389.5" y="220" width="67" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4P4vj4njet90BGzfZDl3-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="afmfM-rW7sp1CcY5-47Q-1" source="4P4vj4njet90BGzfZDl3-8" target="4P4vj4njet90BGzfZDl3-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4P4vj4njet90BGzfZDl3-8" value="Storage Queue" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
           <mxGeometry x="1130" y="720" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-0" value="Web hook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1121" y="800" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-1" value="Queue Storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1220" y="716.5" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-2" value="Event Hub" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Event_Hub_Clusters.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1130" y="850" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-3" value="Hybrid connections" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1230" y="800" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-4" value="Service Bus&lt;br&gt;Queue" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1227" y="852" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VTeQrCMsrQEGl8c_KE9s-5" value="Service Bus&lt;br&gt;Topic" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus_Relay.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1310" y="851" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
