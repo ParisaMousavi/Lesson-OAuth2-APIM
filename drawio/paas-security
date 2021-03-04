@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T18:20:37.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="OmrspzZGifIOF8odXh8n" version="14.4.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-04T11:21:20.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="vPMhWNQlgahtcS7Piith" version="14.4.2" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g9RJpHSe3VU7VPiU1cmL" name="Azure Function App">
-    <mxGraphModel dx="1865" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-0" />
         <mxCell id="dsuyJwCRGoEi3qbpeQWM-1" parent="dsuyJwCRGoEi3qbpeQWM-0" />
@@ -139,6 +139,15 @@
         </mxCell>
         <mxCell id="VDjpmiN_DEEJvjYVdKqJ-3" value="AKS Cluster" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Kubernetes_Services.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#F8CECC;gradientColor=none;" parent="dsuyJwCRGoEi3qbpeQWM-1" vertex="1">
           <mxGeometry x="684" y="-11" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="p5HYoDDkHCjEbtHttcyO-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.97;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dsuyJwCRGoEi3qbpeQWM-1" source="p5HYoDDkHCjEbtHttcyO-0" target="p5HYoDDkHCjEbtHttcyO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5HYoDDkHCjEbtHttcyO-0" value="Azure Function&lt;br&gt;As Event Handler" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Functions.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="1130" y="610" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p5HYoDDkHCjEbtHttcyO-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Domains.svg;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="920" y="603" width="67" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
