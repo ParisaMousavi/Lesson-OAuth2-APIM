@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T11:35:46.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="f7I_CPIj3odxV6QjdGgl" version="14.4.2" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-04T11:39:09.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="bnRHqtI9wxlrIuFl1K2L" version="14.4.2" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,18 @@
         </mxCell>
         <mxCell id="p5HYoDDkHCjEbtHttcyO-4" value="" style="shape=cross;whiteSpace=wrap;html=1;fillColor=#330000;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
           <mxGeometry x="1190" y="633" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="45kVjg8wrrDWLCqrJwUZ-0" value="&lt;h1&gt;Secure Public Endpoint&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#b85450;fillColor=#F8CECC;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="-50" y="-190" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="45kVjg8wrrDWLCqrJwUZ-1" value="&lt;h1&gt;Secure Service Infrastructure&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="-50" y="140" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="45kVjg8wrrDWLCqrJwUZ-2" value="Service Platform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="340" y="140" width="166" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="45kVjg8wrrDWLCqrJwUZ-3" value="&lt;h1&gt;Secure Functions&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#d6b656;" vertex="1" parent="dsuyJwCRGoEi3qbpeQWM-1">
+          <mxGeometry x="620" y="140" width="380" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -633,19 +645,41 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="4N7gCN872BR92vsCwZgp" name="EventHub">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="zVYtMds1tw6R8qnLBcr5-0" />
-        <mxCell id="zVYtMds1tw6R8qnLBcr5-1" parent="zVYtMds1tw6R8qnLBcr5-0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="5P2wlp6ixSM-pl9ZTUWp" name="EventGrid">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="afmfM-rW7sp1CcY5-47Q-0" />
         <mxCell id="afmfM-rW7sp1CcY5-47Q-1" parent="afmfM-rW7sp1CcY5-47Q-0" />
+        <mxCell id="4P4vj4njet90BGzfZDl3-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="afmfM-rW7sp1CcY5-47Q-1" source="4P4vj4njet90BGzfZDl3-0" target="4P4vj4njet90BGzfZDl3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-0" value="Azure Function&lt;br&gt;is triggered when something&amp;nbsp;&lt;br&gt;happens in xxx" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Functions.svg;dashed=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1130" y="610" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-1" value="Event Grid" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Domains.svg;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="920" y="603" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-2" value="&lt;h1&gt;Secure Public Endpoint&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#b85450;fillColor=#F8CECC;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="-50" y="-190" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-3" value="&lt;h1&gt;Secure Service Infrastructure&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="-50" y="140" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-4" value="Service Platform" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=top;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="340" y="140" width="166" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-5" value="&lt;h1&gt;Secure Data&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;- ...&lt;/font&gt;&lt;/p&gt;" style="text;html=1;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#d6b656;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="620" y="140" width="380" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-6" value="Event Grid" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/integration/Event_Grid_Domains.svg;fillColor=#330000;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="389.5" y="220" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="afmfM-rW7sp1CcY5-47Q-1" source="4P4vj4njet90BGzfZDl3-8" target="4P4vj4njet90BGzfZDl3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4P4vj4njet90BGzfZDl3-8" value="Storage Queue" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;" vertex="1" parent="afmfM-rW7sp1CcY5-47Q-1">
+          <mxGeometry x="1130" y="720" width="50" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -828,7 +862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DhGHncBv50eS7bTF0dGA" name="EventHub">
-    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1E4agJfX4F32Q-oe6_1k-0" />
         <mxCell id="1E4agJfX4F32Q-oe6_1k-1" parent="1E4agJfX4F32Q-oe6_1k-0" />
