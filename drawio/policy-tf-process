@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:38:13.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="bxwdwuRauc01RZdpJ9WP" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:39:07.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="MFAp75OqTZ1uC7Lgdqlw" version="14.4.4" type="github">
   <diagram id="i8xAqT5Ig2LFUP0P9dsx" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="y2ZTfuOK-uSvLv2zRTgq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="y2ZTfuOK-uSvLv2zRTgq-14" target="eInWvbUfkRMP3QQwYzNZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y2ZTfuOK-uSvLv2zRTgq-14" value="Refer to assign policy-set tf file and assign the policy-set to their scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y2ZTfuOK-uSvLv2zRTgq-14" value="Refer to policy-assignment tf file and assign the policy-set to their scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="535" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
