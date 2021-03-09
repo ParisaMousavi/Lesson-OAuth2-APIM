@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T07:39:07.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="MFAp75OqTZ1uC7Lgdqlw" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T07:42:41.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="V3S3Wf-4IE5X0bJ9MpZw" version="14.4.4" type="github">
   <diagram id="i8xAqT5Ig2LFUP0P9dsx" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,12 @@
         </mxCell>
         <mxCell id="y2ZTfuOK-uSvLv2zRTgq-14" value="Refer to policy-assignment tf file and assign the policy-set to their scope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="535" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y2ZTfuOK-uSvLv2zRTgq-21" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Policy.svg;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="27" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y2ZTfuOK-uSvLv2zRTgq-22" value="Policy checks if the ID&amp;nbsp;&lt;br&gt;is the policy-set-ID." style="verticalLabelPosition=bottom;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=left;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.policy;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
