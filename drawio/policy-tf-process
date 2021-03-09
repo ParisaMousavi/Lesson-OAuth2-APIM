@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T22:40:10.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="6TBRxgjSDukktQwhk45n" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T22:43:33.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="Uehcl3sZIRM-6kDDY5if" version="14.4.4" type="github">
   <diagram id="i8xAqT5Ig2LFUP0P9dsx" name="policy workflow">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="y2ZTfuOK-uSvLv2zRTgq-22" value="Policy checks if the ID&amp;nbsp;&lt;br&gt;is the policy-set-ID." style="verticalLabelPosition=bottom;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=left;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.policy;" vertex="1" parent="1">
           <mxGeometry x="600" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y2ZTfuOK-uSvLv2zRTgq-23" value="Only this terraform module of this repository&amp;nbsp;have to be accessible by product teams" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="571" y="177" width="196" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
