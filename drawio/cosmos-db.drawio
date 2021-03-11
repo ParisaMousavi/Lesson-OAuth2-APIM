@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T20:43:05.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="whJAVDl6rYIWyE2CvxL0" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T20:47:52.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="rx4TP-BkhlNVT6SzdzAA" version="14.4.7" type="github">
   <diagram id="gQ_9v4CdiexItw4zU6r-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
         </mxCell>
         <mxCell id="YBjTQArVUFeNYg_c9qIM-15" value="Required RUs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="740" y="320" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-16" value="Partition key consideration" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="740" y="780" width="550" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
