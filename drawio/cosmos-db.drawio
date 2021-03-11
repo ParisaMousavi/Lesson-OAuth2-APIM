@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T19:57:27.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ujL-Tc93oQyPRcpDVe76" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T20:03:53.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="vk4MDM-P78F7Hnm_oSgQ" version="14.4.7" type="github">
   <diagram id="gQ_9v4CdiexItw4zU6r-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,27 @@
         </mxCell>
         <mxCell id="YsZGYLzwbfZRXPLkO7Gu-3" value="Offer a limited Request Units (RU)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="490" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-5" value="0..many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YBjTQArVUFeNYg_c9qIM-3" target="YBjTQArVUFeNYg_c9qIM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-3" value="Cosmos DB Acount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="172" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-7" value="1..many" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YBjTQArVUFeNYg_c9qIM-4" target="YBjTQArVUFeNYg_c9qIM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-4" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="172" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-9" value="Contains" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YBjTQArVUFeNYg_c9qIM-6" target="YBjTQArVUFeNYg_c9qIM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-6" value="Collection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="172" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YBjTQArVUFeNYg_c9qIM-8" value="document&lt;br&gt;unstructured&lt;br&gt;key/value pair" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="172" y="720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
