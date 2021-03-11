@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T19:54:08.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="lKO9UpUzFDUiPbeVl2NR" version="14.4.7" type="github"><diagram id="gQ_9v4CdiexItw4zU6r-" name="Page-1">3ZZdb5swFIZ/DdJ2sQlMvnq5fDS7yNQpadW1N5WDD+DVYGabkOTX7xBMCGNNO6lbpUkJ2I+PY/t9z4E4/iTZzhXN4i+SgXCIy7aOP3UI8XqEOOXHZbuKDAcWRIozG9SAFd+Dha6lOWegW4FGSmF41oaBTFMITItRpWTRDgulaK+a0Qg6YBVQ0aW3nJm4oiMybPhn4FFcr+wNLqqRhNbB9iQ6pkwWJ8ifOf5ESWmqVrKdgCjFq3Wp5l0+MXrcmILUvGTCnb6f3y32xTq8X377uni8Gs7zD/3qVzZU5PbAdrNmVysADAWxXalMLCOZUjFr6FjJPGVQLuNir4lZSJkh9BB+B2N21l2aG4koNomwo9Wa5UJPns0iLXMVwJkD1TlCVQTmTBw5OoCpCzIBo3Y4T4Gghm/a+6A2h6JjXCMzNqzSf6C697zqVGdVOod8W0p7KlcmeWoOe+qPnf4UCRU8ShEEqBcoBDw55PU4lKmxsnuk4VOeRLhzwdd4pftcQXkiRg1dU43lRi4/lfBhInUi9cN0/FFvoqNRG1AGtuet6kprJxDX1oN9IPh1pRdNeQ16FYpPKqtmr25G738rAfLCEvDfsgRIR/WM7g4PaIXXa9QzirPcYPsm5eXt3fXN+44xbdmLmBtYZfSgToHvo7bEIRdiIgUuUM71GYVRGCDXRslHOBkZBCNYh6+T7j75Nd1JJ929OqaV7+5fUt7vKH8VhlCqTvEreIIiMmwt4UcOunZAlxYsf2PBM6K3HXoTC3oX/84C7DZv9MPYyf8if/YT</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-11T19:57:27.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ujL-Tc93oQyPRcpDVe76" version="14.4.7" type="github">
+  <diagram id="gQ_9v4CdiexItw4zU6r-" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YsZGYLzwbfZRXPLkO7Gu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YsZGYLzwbfZRXPLkO7Gu-1" target="YsZGYLzwbfZRXPLkO7Gu-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsZGYLzwbfZRXPLkO7Gu-1" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" parent="1" vertex="1">
+          <mxGeometry x="200" y="310" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="YsZGYLzwbfZRXPLkO7Gu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YsZGYLzwbfZRXPLkO7Gu-2" target="YsZGYLzwbfZRXPLkO7Gu-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsZGYLzwbfZRXPLkO7Gu-2" value="pay for Troughput Unit (TU)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="320" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YsZGYLzwbfZRXPLkO7Gu-3" value="Offer a limited Request Units (RU)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="490" y="312" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
