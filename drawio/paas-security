@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-15T11:59:09.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="k8t5Bv3lI-i_UJ_RS0Ec" version="14.4.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-03-15T11:59:39.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="K-qwUXLYxJ062vFYHqfl" version="14.4.7" type="github" pages="19">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -729,7 +729,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W0XlirV9SiBAHhvTWjZV" name="Storage">
-    <mxGraphModel dx="813" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Llpr0COgEY5Ku-fZK-Lp-0" />
         <mxCell id="Llpr0COgEY5Ku-fZK-Lp-1" parent="Llpr0COgEY5Ku-fZK-Lp-0" />
@@ -802,13 +802,13 @@
           <mxGeometry x="577" y="727" width="50" height="27.500000000000004" as="geometry" />
         </mxCell>
         <mxCell id="-K0SurLkI7oe8vv_EUtL-29" value="subnet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;align=center;strokeColor=#6c8ebf;fillColor=none;dashed=1;" vertex="1" parent="Llpr0COgEY5Ku-fZK-Lp-1">
-          <mxGeometry x="510" y="619.75" width="117.5" height="80.25" as="geometry" />
+          <mxGeometry x="510" y="631.75" width="117.5" height="80.25" as="geometry" />
         </mxCell>
         <mxCell id="-K0SurLkI7oe8vv_EUtL-9" value="Terraform Statefiles" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="Llpr0COgEY5Ku-fZK-Lp-1">
-          <mxGeometry x="419.7" y="633.88" width="65" height="52" as="geometry" />
+          <mxGeometry x="419.7" y="645.88" width="65" height="52" as="geometry" />
         </mxCell>
         <mxCell id="-K0SurLkI7oe8vv_EUtL-30" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_endpoint;dashed=1;fontSize=11;" vertex="1" parent="Llpr0COgEY5Ku-fZK-Lp-1">
-          <mxGeometry x="484.7" y="654.82" width="25.3" height="10.12" as="geometry" />
+          <mxGeometry x="484.7" y="666.82" width="25.3" height="10.12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
