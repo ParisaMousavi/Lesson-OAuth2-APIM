@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:47:35.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ecPa_69O9QhZSp4Iktuv" version="14.4.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:58:52.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="58uOpShwhIsCXasDPAwE" version="14.4.8" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1329,6 +1329,9 @@
         </mxCell>
         <mxCell id="UJKljdl4T5cGZg6iCOgI-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="295.66" y="1468" width="23.68" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="191" y="1534" width="64" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
