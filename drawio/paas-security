@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:58:52.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="58uOpShwhIsCXasDPAwE" version="14.4.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:03:00.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="x3h1Twwie9AFTH2HqGN0" version="14.4.8" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,7 +751,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5P2wlp6ixSM-pl9ZTUWp" name="EventGrid">
-    <mxGraphModel dx="2489" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="afmfM-rW7sp1CcY5-47Q-0" />
         <mxCell id="afmfM-rW7sp1CcY5-47Q-1" parent="afmfM-rW7sp1CcY5-47Q-0" />
@@ -1325,13 +1325,31 @@
           <mxGeometry x="100" y="1320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UJKljdl4T5cGZg6iCOgI-9" value="NIC &amp;amp; Vnet in &lt;br&gt;same region" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="335" y="1510" width="57" height="38" as="geometry" />
+          <mxGeometry x="827" y="1518" width="57" height="38" as="geometry" />
         </mxCell>
         <mxCell id="UJKljdl4T5cGZg6iCOgI-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="295.66" y="1468" width="23.68" height="32" as="geometry" />
         </mxCell>
         <mxCell id="UJKljdl4T5cGZg6iCOgI-11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="401" y="1740" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UJKljdl4T5cGZg6iCOgI-1" source="UJKljdl4T5cGZg6iCOgI-12" target="UJKljdl4T5cGZg6iCOgI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-12" value="Inbound firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Web_App_Firewall.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="280" y="1747" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="191" y="1534" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="UJKljdl4T5cGZg6iCOgI-1" source="UJKljdl4T5cGZg6iCOgI-15" target="UJKljdl4T5cGZg6iCOgI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-15" value="Azure services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="40" y="1747" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xx6-j4O72dd8I9poSsGp-1" value="- Only specified IP Addresses can access data." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="40" y="1860" width="640" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
