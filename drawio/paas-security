@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T08:07:09.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="dF9mjBkW49_RAvP6ENgT" version="14.4.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:09:57.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="_k6xjEstAdfz4TeFhtG6" version="14.4.8" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1351,7 +1351,7 @@
         <mxCell id="UJKljdl4T5cGZg6iCOgI-15" value="Azure services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="40" y="1747" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xx6-j4O72dd8I9poSsGp-1" value="- Only specified IP Addresses can access data + valid authorization token." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+        <mxCell id="Xx6-j4O72dd8I9poSsGp-1" value="- Only specified IP Addresses can access data + valid authorization token.&lt;br&gt;- IP can belong to an azure service or a machine which access the cosmos DB from internet." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="40" y="1860" width="640" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
@@ -1359,6 +1359,12 @@
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-3" value="- Support IP-Policy based access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="80" y="1360" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UKbUGXf23c6NP0suToG0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UJKljdl4T5cGZg6iCOgI-1" source="UKbUGXf23c6NP0suToG0-4" target="UJKljdl4T5cGZg6iCOgI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UKbUGXf23c6NP0suToG0-4" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_globe.svg;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="75" y="1660" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
