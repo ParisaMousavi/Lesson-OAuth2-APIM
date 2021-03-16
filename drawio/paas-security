@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:45:39.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="VPRHmyAMPlZQTWTxQpBC" version="14.4.8" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:47:35.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ecPa_69O9QhZSp4Iktuv" version="14.4.8" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1300,6 +1300,35 @@
         </mxCell>
         <mxCell id="BDGqA-lJs1TKFEBd-TfA-13" value="By using service endpoint,&lt;br&gt;traffics from internet are blocked.&lt;br&gt;&lt;br&gt;By specifying IP address in firewall, &lt;br&gt;the public endpoint is still accessible &lt;br&gt;from internet but only for the specified&lt;br&gt;IP address." style="shape=image;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/shift-free/32/Block-128.png;dashed=1;strokeColor=#000000;strokeWidth=2;fillColor=#00BEF2;gradientColor=none;fontSize=14;align=right;fontColor=#EB0000;fontStyle=1;html=1;" vertex="1" parent="1E4agJfX4F32Q-oe6_1k-1">
           <mxGeometry x="154.99999999999997" y="1470" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sk-v1NBV_BsR-khmPRM7" name="CosmosDB">
+    <mxGraphModel dx="1422" dy="-365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-0" />
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-1" parent="UJKljdl4T5cGZg6iCOgI-0" />
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;dashed=1;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="305" y="1481" width="140" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="285" y="1458" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;shape=mxgraph.azure.virtual_network;pointerEvents=1;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="397" y="1614" width="50" height="27.500000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-7" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_endpoint;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="255" y="1556" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-8" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_globe.svg;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="100" y="1320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-9" value="NIC &amp;amp; Vnet in &lt;br&gt;same region" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="335" y="1510" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="UJKljdl4T5cGZg6iCOgI-10" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Network_Security_Groups_Classic.svg;dashed=1;strokeColor=#00BEF2;fillColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
+          <mxGeometry x="295.66" y="1468" width="23.68" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
