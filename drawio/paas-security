@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T14:27:18.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="fbtH9NNZFlpDeMtgG2XZ" version="14.4.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-16T14:28:26.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="gIVRQPoA12iYrkaUXuyF" version="14.4.8" type="github" pages="20">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1331,13 +1331,13 @@
           <mxGeometry x="83.34" y="1597" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xx6-j4O72dd8I9poSsGp-1" value="- Only specified IP Addresses can access data + valid authorization token.&lt;br&gt;- IP can belong to an azure service or a machine which access the cosmos DB from internet." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="40.5" y="1684" width="699.5" height="70" as="geometry" />
+          <mxGeometry x="40.5" y="1684" width="679.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-0" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="350" y="1270" width="64" height="64" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-3" value="- Support IP-Policy based access&lt;br&gt;- Valid authorization Token is always required." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="40" y="1370" width="700" height="70" as="geometry" />
+          <mxGeometry x="40" y="1370" width="680" height="70" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UJKljdl4T5cGZg6iCOgI-1" source="UKbUGXf23c6NP0suToG0-4" target="UJKljdl4T5cGZg6iCOgI-12">
           <mxGeometry relative="1" as="geometry" />
@@ -1346,10 +1346,10 @@
           <mxGeometry x="118.34" y="1510" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-6" value="Default setting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="40" y="1220" width="703" height="30" as="geometry" />
+          <mxGeometry x="40" y="1220" width="680" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-7" value="Only firewall" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="40" y="1450" width="703" height="30" as="geometry" />
+          <mxGeometry x="40" y="1450" width="680" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="444.34" y="1590" width="64" height="64" as="geometry" />
@@ -1358,7 +1358,7 @@
           <mxGeometry x="323.34" y="1597" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-21" value="Service endpoint and private endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="38.5" y="1760" width="703" height="30" as="geometry" />
+          <mxGeometry x="38.5" y="1760" width="681.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UKbUGXf23c6NP0suToG0-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#00BEF2;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="380.5" y="1820" width="260" height="170" as="geometry" />
@@ -1406,7 +1406,7 @@
           <mxGeometry x="355" y="1930" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8d4N4iGb5mBapaFq1Nmb-4" value="- Both service endpoint and private endpoint can be used with or without firewall. Firewall only add more restriction. NSG can also add more restriction." style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
-          <mxGeometry x="40.5" y="2110" width="690" height="70" as="geometry" />
+          <mxGeometry x="40.5" y="2110" width="679.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8d4N4iGb5mBapaFq1Nmb-5" value="Inbound firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Web_App_Firewall.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="490" y="1966.75" width="50" height="50" as="geometry" />
