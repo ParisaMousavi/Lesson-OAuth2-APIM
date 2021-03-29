@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T20:43:41.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yto-p1m5f0M3TBN48Rpj" version="14.5.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2021-03-29T20:44:33.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fHwvAGcDvbSqYLXwBeLk" version="14.5.3" type="github" pages="22">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1849" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1532,8 +1532,8 @@
         <mxCell id="DX0aiKnqNjXNkdMBsOew-23" value="Physical layer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-22">
           <mxGeometry width="195" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DX0aiKnqNjXNkdMBsOew-24" value="Load balancer understand&lt;br&gt;- IP addresses&lt;br&gt;- Ports" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
-          <mxGeometry x="330" y="390" width="230" height="40" as="geometry" />
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-24" value="Load balancer understand&lt;br&gt;- IP addresses&lt;br&gt;- Ports&lt;br&gt;- doesn&#39;t understand URLs" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="330" y="390" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
