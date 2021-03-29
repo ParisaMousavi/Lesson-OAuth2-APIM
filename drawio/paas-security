@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T07:06:37.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="BXD-1j1Bh671VvtVQ4k9" version="14.4.8" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-03-29T07:54:46.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Lhy_HiFiYSUKP0bXTGLK" version="14.4.8" type="github" pages="21">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2871" dy="2125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1455,6 +1455,26 @@
         </mxCell>
         <mxCell id="8d4N4iGb5mBapaFq1Nmb-5" value="Inbound firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Web_App_Firewall.svg;" vertex="1" parent="UJKljdl4T5cGZg6iCOgI-1">
           <mxGeometry x="490" y="1966.75" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H_oRMuYVSIsDJ53miWhR" name="AD">
+    <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-0" />
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-1" parent="UiYLsIULd1V37Bpl7Oc1-0" />
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-7" value="Azure AD Connect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UiYLsIULd1V37Bpl7Oc1-1" source="UiYLsIULd1V37Bpl7Oc1-2" target="UiYLsIULd1V37Bpl7Oc1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-2" value="Azure AD" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Azure_Active_Directory.svg;" vertex="1" parent="UiYLsIULd1V37Bpl7Oc1-1">
+          <mxGeometry x="40" y="119" width="70" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-5" value="On-prem AD" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#996185;fillColor=#e6d0de;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.active_directory;gradientColor=#d5739d;" vertex="1" parent="UiYLsIULd1V37Bpl7Oc1-1">
+          <mxGeometry x="340" y="128" width="53" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="UiYLsIULd1V37Bpl7Oc1-6" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;quot;blinkmacsystemfont&amp;quot; , &amp;quot;segoe ui&amp;quot; , &amp;quot;roboto&amp;quot; , &amp;quot;oxygen&amp;quot; , &amp;quot;ubuntu&amp;quot; , &amp;quot;fira sans&amp;quot; , &amp;quot;droid sans&amp;quot; , &amp;quot;helvetica neue&amp;quot; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;- regularly synchronize a specific OU, from our On-Premises AD, with all user and groups to the Azure AD&lt;br&gt;- Important in the configuration of Azure AD Sync is the usage of &quot;Pass through authentication&quot; without password hash sync.&lt;br&gt;- Which means all passwords stay in our On-Premise AD and are not synced to the Azure AD.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UiYLsIULd1V37Bpl7Oc1-1">
+          <mxGeometry x="40" y="220" width="910" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
