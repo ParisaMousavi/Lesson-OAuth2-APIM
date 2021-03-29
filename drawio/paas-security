@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T21:09:02.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="gCkRi-5JbJlhpxc5xFpf" version="14.5.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2021-03-29T21:14:33.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9VwhWvK9ZoaCToPSAtD5" version="14.5.3" type="github" pages="22">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
     <mxGraphModel dx="1849" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1636,6 +1636,33 @@
         </mxCell>
         <mxCell id="DX0aiKnqNjXNkdMBsOew-2" value="Load balancer" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
           <mxGeometry x="80" y="385" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DX0aiKnqNjXNkdMBsOew-1" source="DX0aiKnqNjXNkdMBsOew-63" target="DX0aiKnqNjXNkdMBsOew-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DX0aiKnqNjXNkdMBsOew-1" source="DX0aiKnqNjXNkdMBsOew-63" target="DX0aiKnqNjXNkdMBsOew-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-63" value="Traffic Manager&lt;br&gt;routes traffics to different regions&lt;br&gt;then in each region we can have &lt;br&gt;LB or Application gatreway" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.traffic_manager;pointerEvents=1;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-340" y="54" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-64" value="Region 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;verticalAlign=top;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-530" y="174.5" width="160" height="125.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-65" value="Region 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=center;verticalAlign=top;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-240" y="174.5" width="160" height="125.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-68" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;fillColor=none;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-510" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-69" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;fillColor=none;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-440" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-70" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;fillColor=none;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-150" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-71" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Load_Balancer_feature.svg;fillColor=none;" vertex="1" parent="DX0aiKnqNjXNkdMBsOew-1">
+          <mxGeometry x="-220" y="220" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
