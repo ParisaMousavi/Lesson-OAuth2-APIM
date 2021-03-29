@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T07:57:24.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rZVgIHj-EqJ6EvZ5vQJU" version="14.4.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2021-03-29T20:38:38.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="qhLJcasQkRdpyF_B97Z1" version="14.5.3" type="github" pages="22">
   <diagram id="hzG7269UITtcCFJy4dlq" name="APP Service">
-    <mxGraphModel dx="2871" dy="2125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1476,6 +1476,14 @@
         <mxCell id="UiYLsIULd1V37Bpl7Oc1-6" value="&lt;span style=&quot;color: rgb(23 , 43 , 77) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;oxygen&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;fira sans&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;- Frequently synchronize a specific OU, from our On-Premises AD to the Azure AD (users &amp;amp; groups)&lt;br&gt;- With the Azure AD Sync &amp;amp; &quot;Pass through authentication&quot; =&amp;gt; without password hash sync.&lt;br&gt;- To keep the passwords on premise AD and not to sync them to the Azure AD.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="UiYLsIULd1V37Bpl7Oc1-1">
           <mxGeometry x="40" y="220" width="680" height="150" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H4Px87nYRG4RgVsZ0ESa" name="LB">
+    <mxGraphModel dx="1022" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-0" />
+        <mxCell id="DX0aiKnqNjXNkdMBsOew-1" parent="DX0aiKnqNjXNkdMBsOew-0" />
       </root>
     </mxGraphModel>
   </diagram>
